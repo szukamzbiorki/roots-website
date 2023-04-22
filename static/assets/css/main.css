@@ -1,0 +1,34 @@
+:root {
+    --margin1: 20px;
+    --white: #ffffff;
+    --paddingright: 6px;
+    --paddingright2: 1px;
+  }
+
+  body{
+    margin:0;
+    font-family: 'Fell';
+  }
+  
+  @font-face {
+    font-family: 'Fell';
+    src: url("../IMFellDWPica-Regular.ttf") format('truetype');
+  }
+
+  @font-face {
+    font-family: 'Fell-Italic';
+    src: url("../IMFellDWPica-Italic.ttf") format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'Fluxisch';
+    src: url("../FluxischElse-Bold.otf") format('opentype');
+  }
+
+  a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    font-family: 'Fell';
+  }
+
