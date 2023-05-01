@@ -9,8 +9,12 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
+    "@nuxtjs/sanity": "^0.10.0",
+    "@sanity/client": "^5.4.2",
     "core-js": "^3.19.3",
     "nuxt": "^2.15.8",
+    "nuxt-swiper": "^1.1.0",
+    "swiper": "^9.2.4",
     "vue": "^2.6.14",
     "vue-server-renderer": "^2.6.14",
     "vue-template-compiler": "^2.6.14",

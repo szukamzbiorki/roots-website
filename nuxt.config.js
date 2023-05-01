@@ -42,12 +42,29 @@ export default {
     }
   },
 
+  loadingIndicator: {
+    name: 'circle',
+    color: '#3B8070',
+    background: 'white'
+  },
+
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
+    '@nuxtjs/sanity/module'
   ],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
+        // fix to work with swiperjs 8 - need to run with standalone:true. That can make some troubles.
+        // standalone: true,
+        // extend(config, ctx) {
+        //   // fix to work with swiperjs 8 add needed deps. you can get them from error when doing nuxt generate
+        //   config.externals = [
+        //     {
+        //       encoding: 'encoding',
+        //     },
+        //   ]
+        // },
   },
   
   pageTransition: {

@@ -1,6 +1,7 @@
 <template>
     <div class="header">
-        <NuxtLink to="/artist">Go to Artist</NuxtLink>
+        <NuxtLink to="/bartek">Go to Bartek</NuxtLink>
+        <NuxtLink to="/lucy">Go to Lucy</NuxtLink>
         <span class="title">
             ROOTS
         </span>

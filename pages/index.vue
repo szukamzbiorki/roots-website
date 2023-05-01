@@ -29,4 +29,5 @@ export default {
   flex-direction: column;
   scrollbar-width: none;
   /* Firefox */
-}</style>
+}
+</style>

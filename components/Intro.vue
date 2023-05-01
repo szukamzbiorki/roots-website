@@ -1,19 +1,21 @@
 <template>
     <div class="intro-wrapper">
         <div class="intro">
-            <div class="card one">
-                <div class="intro-border">
+            <div class="intro-border">
 
-                </div>
+            </div>
+            <div class="intro-border-right">
+
+            </div>
+            <div class="card one">
+
                 <div class="intro-text">
                     Everything that exists and grows has its <span class="sans">ROOTS</span>.
                     What does this mean to a designer or individual?
                 </div>
             </div>
             <div class="card two">
-                <div class="intro-border">
 
-                </div>
                 <div class="intro-text">
                     <span class="sans">ROOTS</span> are shared, yet particular and individual. Plants have roots, tribes and
                     groups have certain
@@ -25,9 +27,6 @@
                 </div>
             </div>
             <div class="card three">
-                <div class="intro-border">
-
-                </div>
                 <div class="intro-text">
                     <span class="sans">ROOTS</span> is a block-long project with third-year graphic design students from the
                     Royal Academy of Art, The Hague. They developed new works in various formats, with diverse narratives,
@@ -50,44 +49,118 @@ export default {
     mounted() {
         this.cards()
     },
-
     methods: {
         cards() {
             const gsap = this.$gsap;
-            let tl = gsap.timeline({
-                scrollTrigger: {
-                    trigger: ".intro",
-                    start: "center center",
-                    pin: true,
-                    pinSpacing: true,
-                    end: "+=500",
-                    markers: true,
-                    scrub: true,
-                    defaults: { // children inherit these defaults
-                        duration: .5,
-                        ease: "power2"
-                    },
-                }
-            });
 
-            tl.to(".header", {
+            gsap.from(".card", {
+                delay: .4,
+                rotateZ: () => {
+                    return "" + (Math.random() * 10 - 5) + "deg"
+                },
+                rotateX: () => {
+                    return "" + (Math.random() * 10 - 5) + "deg"
+                },
+                rotateY: () => {
+                    return "" + (Math.random() * 10 - 5) + "deg"
+                },
                 autoAlpha: 0,
-                duration: .5
+                scale: 0.7,
+                filter: "blur(10px)",
+                stagger: .4
             })
-            tl.to(".one", {
-                xPercent: 0,
-                autoAlpha: 1
-            })
-            tl.from('.two', {
-                xPercent: 50,
-                autoAlpha: 0
-            })
-            tl.from('.three', {
-                xPercent: 50,
-                autoAlpha: 0
-            })
+
+            // let tl = gsap.timeline({
+            //     scrollTrigger: {
+            //         id: 'cards',
+            //         trigger: ".landing",
+            //         start: "top top",
+            //         pin: true,
+            //         pinSpacing: true,
+            //         end: "+=700",
+            //         markers: true,
+            //         scrub: true,
+            //         defaults: { // children inherit these defaults
+            //             duration: .5,
+            //             ease: "power2"
+            //         },
+            //     }
+            // });
+
+            // tl.to(".header", {
+            //     autoAlpha: 0,
+            //     duration: .5
+            // })
+            // tl.to(".one", {
+            //     xPercent: 0,
+            //     autoAlpha: 1
+            // })
+            // tl.to(".one", {
+            //     rotateZ: () => {
+            //         return "" + (Math.random() * 10 - 5) + "deg"
+            //     },
+            //     rotateX: () => {
+            //         return "" + (Math.random() * 10 - 5) + "deg"
+            //     },
+            //     rotateY: () => {
+            //         return "" + (Math.random() * 10 - 5) + "deg"
+            //     },
+            //     autoAlpha: 0,
+            //     scale: 0.7,
+            //     filter: "blur(10px)"
+            // })
+            // tl.from('.two', {
+            //     rotateZ: () => {
+            //         return "" + (Math.random() * 10 - 5) + "deg"
+            //     },
+            //     rotateX: () => {
+            //         return "" + (Math.random() * 10 - 5) + "deg"
+            //     },
+            //     rotateY: () => {
+            //         return "" + (Math.random() * 10 - 5) + "deg"
+            //     },
+            //     autoAlpha: 0,
+            //     scale: 1.2,
+            //     filter: "blur(10px)"
+            // }, "<")
+            // tl.to('.two', {
+            //     rotateZ: () => {
+            //         return "" + (Math.random() * 10 - 5) + "deg"
+            //     },
+            //     rotateX: () => {
+            //         return "" + (Math.random() * 10 - 5) + "deg"
+            //     },
+            //     rotateY: () => {
+            //         return "" + (Math.random() * 10 - 5) + "deg"
+            //     },
+            //     autoAlpha: 0,
+            //     scale: 0.7,
+            //     filter: "blur(10px)"
+            // }, ">20%")
+            // tl.from('.three', {
+            //     rotateZ: () => {
+            //         return "" + (Math.random() * 10 - 5) + "deg"
+            //     },
+            //     rotateX: () => {
+            //         return "" + (Math.random() * 10 - 5) + "deg"
+            //     },
+            //     rotateY: () => {
+            //         return "" + (Math.random() * 10 - 5) + "deg"
+            //     },
+            //     autoAlpha: 0,
+            //     scale: 1.2,
+            //     filter: "blur(10px)"
+            // }, "<")
+            // tl.to('.intro', {
+            //     autoAlpha: 0
+            // })
 
         }
+    },
+    beforeDestroy() {
+        // Returns the ScrollTrigger with unique Id
+        // and kills it before route change
+        // this.$ScrollTrigger.getById('cards').kill()
     }
 }
 </script>
@@ -103,14 +176,17 @@ export default {
 }
 
 .intro {
-    position: relative;
+
+    /* position: relative;
     width: 400px;
-    height: 400px;
+    height: 400px; */
 }
 
-.card {
-    position: absolute;
+.card:not(:last-child) {
+    /* position: absolute;
     background-color: white;
+    filter: url(#n1); */
+    margin-bottom: 20px;
 }
 
 .intro-text {
@@ -122,15 +198,27 @@ export default {
             0% 100%); */
 }
 
+.pin-spacer {
+    flex-basis: auto;
+}
+
 .sans {
     font-family: "Fluxisch";
 }
 
 .intro-border {
     float: left;
-    height: 230px;
+    height: 500px;
     width: 40px;
-    shape-outside: polygon(0% 0%, 72.5% 6.25%, 90% 18%, 95.81% 27.6%, 60% 38.99%, 75.00% 70.68%, 29.77% 94.44%);
-    -webkit-shape-outside: polygon(0% 0%, 72.5% 6.25%, 90% 18%, 95.81% 27.6%, 60% 38.99%, 75.00% 70.68%, 29.77% 94.44%);
+    shape-outside: polygon(0% 0%, 98.5% 0.17%, 49.00% 11.91%, 18.81% 24.99%, 11% 41.59%, 25% 65.46%, 47.77% 83.34%, 98.3% 98.84%, 0.77% 98.79%);
+    -webkit-shape-outside: polygon(0% 0%, 98.5% 0.17%, 49.00% 11.91%, 18.81% 24.99%, 11% 41.59%, 25% 65.46%, 47.77% 83.34%, 98.3% 98.84%, 0.77% 98.79%);
+}
+
+.intro-border-right {
+    float: right;
+    height: 500px;
+    width: 40px;
+    shape-outside: polygon(41.00% 79.10%, 49.5% 54.01%, 50% 33.01%, 36.48% 16.46%, 2.44% 1.55%, 101% 0.73%, 99% 98.51%, 6.77% 99.22%);
+    -webkit-shape-outside: polygon(41.00% 79.10%, 49.5% 54.01%, 50% 33.01%, 36.48% 16.46%, 2.44% 1.55%, 101% 0.73%, 99% 98.51%, 6.77% 99.22%);
 }
 </style>

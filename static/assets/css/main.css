@@ -25,6 +25,16 @@
     src: url("../FluxischElse-Bold.otf") format('opentype');
   }
 
+  @font-face {
+    font-family: 'FluxischRegular';
+    src: url("../FluxischElse-Regular.otf") format('opentype');
+  }
+
+  @font-face {
+    font-family: 'FluxischLight';
+    src: url("../FluxischElse-Light.otf") format('opentype');
+  }
+
   a{
     text-decoration: none;
     color: black;
