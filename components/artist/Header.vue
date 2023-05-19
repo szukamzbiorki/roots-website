@@ -76,6 +76,10 @@ export default {
 .artist-header-title {
     display: flex;
     flex-direction: row;
+    max-width: 70vw;
+    text-align: center;
+    line-height: 5rem;
+    margin-bottom: 1rem;
     /* justify-content: flex-start; */
 }
 
@@ -103,5 +107,16 @@ export default {
 
 .insta {
     align-self: flex-end;
+}
+
+@media screen and (max-width: 600px) {
+
+    .name,
+    .title {
+        /* display: inline-block; */
+
+        font-size: 30px;
+        line-height: 99%;
+    }
 }
 </style>

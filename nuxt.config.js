@@ -106,7 +106,7 @@ export default {
         scale: 0.8,
         filter: "blur(30px)",
         opacity: 0,
-        duration: 0.6,
+        duration: 0.4,
         ease: 'power2.inOut',
         onComplete: done,
         rotateZ: (index, target) => {
