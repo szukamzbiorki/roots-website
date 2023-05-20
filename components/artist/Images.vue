@@ -8,7 +8,7 @@
 
 <script>
 import Slick from 'vue-slick';
-import 'slick-carousel/slick/slick.css';
+// import 'slick-carousel/slick/slick.css';
 
 export default {
     components: { Slick },
