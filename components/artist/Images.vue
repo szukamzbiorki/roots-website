@@ -44,7 +44,7 @@ export default {
 
 .slick-slider {
     display: flex;
-
+    background-color: white;
 }
 
 .slick-slider>button {
