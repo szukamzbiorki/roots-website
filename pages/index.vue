@@ -4,13 +4,20 @@
       <Header></Header>
       <Intro></Intro>
     </div>
+    <Artists :artists="artistlist"></Artists>
     <Potatos></Potatos>
   </div>
 </template>
 
 <script>
+import { groq } from '@nuxtjs/sanity'
+
 export default {
-  name: 'IndexPage'
+  name: "IndexPage",
+  asyncData({ params, $sanity }) {
+    const query = groq`{ "artistlist": *[_type == "artist"]{name} }`
+    return $sanity.fetch(query)
+  },
 }
 </script>
 

@@ -104,7 +104,7 @@ export default {
 
     .description-border {
         height: 500px;
-        width: 100px;
+        width: 60px;
     }
 
     .description-border-right {

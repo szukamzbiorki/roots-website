@@ -6,7 +6,10 @@
                 <button @click="next()">Next</button>
             </div>
             <flickity ref="flickity" :options="flickityOptions">
-                <img v-for="image in images" :key="image.id" :src="image.asset.url" alt="">
+                <div v-for="image in images" :key="image.id" class="carousel-cell">
+                    <img :src="image.asset.url" alt="">
+                </div>
+
             </flickity>
 
         </no-ssr>
@@ -24,7 +27,6 @@ export default {
                 wrapAround: true,
                 imagesLoaded: true,
                 adaptiveHeight: true,
-                freeScroll: true,
                 wrapAround: true
                 // on: {
                 //     ready: () => { imagesLoaded(this.$refs.flickity, this.loadComplete) }
@@ -85,7 +87,18 @@ export default {
     font-size: .8em;
 }
 
+.carousel-cell {
+    width: 100%;
+}
+
 img {
-    max-width: 70vw;
+    width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+
+    .artistImages {
+        width: 95vw;
+    }
 }
 </style>

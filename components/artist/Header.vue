@@ -1,14 +1,16 @@
 <template>
     <div class="artist-header">
-        <NuxtLink class="back" to="/">Back to main page</NuxtLink>
+        <NuxtLink class="back" to="/">Back to the Roots</NuxtLink>
         <div class="artist-header-top">
-            <div class="name">{{ artists.name }}</div>
-            <a :href="'https://instagram.com/' + artists.instagram" class="insta">@{{ artists.instagram }}</a>
-        </div>
-        <div class="artist-header-rest">
+            <div class="name">{{ artists.name }}<a :href="'https://instagram.com/' + artists.instagram" class="insta">@{{
+                artists.instagram }}</a>
+            </div>
             <div class="artist-header-title">
                 <div class="title">{{ artists.title }}</div>
             </div>
+        </div>
+        <div class="artist-header-rest">
+
             <ArtistDescription :keywords="artists.keywords" :kind="artists.kind" :sizes="artists.size"
                 :medium="artists.medium" :description="artists.description">
             </ArtistDescription>
@@ -66,8 +68,8 @@ export default {
                     scale: 0.7,
                     filter: "blur(20px)",
                     // stagger: .05
-                }, "-=50%")
-                .from(".description-border-right *", {
+                }, "-=30%")
+                .from(".description-border-right > *", {
                     // delay: .4,
                     rotateZ: () => {
                         return "" + (Math.random() * 10 - 5) + "deg"
@@ -81,8 +83,8 @@ export default {
                     autoAlpha: 0,
                     scale: 0.7,
                     filter: "blur(20px)",
-                    stagger: .05
-                }, "-=50%")
+                    stagger: .19
+                }, "-=30%")
                 .from(".artistImages", {
                     yPercent: 100,
                     autoAlpha: 0
@@ -96,7 +98,8 @@ export default {
 .back {
     position: absolute;
     top: 0;
-    left: 0;
+    left: 50vw;
+    transform: translateX(-50%);
 }
 
 .artist-header {
@@ -109,7 +112,7 @@ export default {
 
 .artist-header-top {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: flex-start;
     margin-top: 30px;
 }
@@ -119,8 +122,8 @@ export default {
     flex-direction: row;
     max-width: 70vw;
     text-align: center;
-    line-height: 5rem;
-    margin-bottom: 1rem;
+    line-height: 300%;
+    margin-bottom: 1.2rem;
     /* justify-content: flex-start; */
 }
 
@@ -129,17 +132,18 @@ export default {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
+    margin-top: 6px;
 }
 
 .name,
 .title {
-    /* display: inline-block; */
-
     font-size: 80px;
 }
 
 .name {
-    line-height: .75em;
+    line-height: 88%;
+    max-width: 23ch;
+    text-align: center;
 }
 
 .title {
@@ -148,9 +152,16 @@ export default {
 
 .insta {
     align-self: flex-end;
+    padding-left: 7px;
+    display: inline;
+    font-size: 15px;
 }
 
 @media screen and (max-width: 600px) {
+
+    .artist-header-title {
+        margin-bottom: .4rem;
+    }
 
     .name,
     .title {
@@ -158,6 +169,10 @@ export default {
 
         font-size: 35px;
         line-height: 99%;
+    }
+
+    .insta {
+        font-size: 12px;
     }
 }
 </style>
