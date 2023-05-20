@@ -54,7 +54,7 @@ export default {
                 autoAlpha: 0,
                 scale: 0.7,
                 filter: "blur(10px)",
-                stagger: .4
+                stagger: .2
             })
         }
     }

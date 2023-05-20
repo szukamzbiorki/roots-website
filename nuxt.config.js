@@ -70,35 +70,45 @@ export default {
   pageTransition: {
     name: 'page',
     css: false,
+    mode: 'out-in',
 
     beforeEnter(el) {
       this.$gsap.set(el, {
-        yPercent: 50,
-        rotateZ: (index, target) => {
-          return "" + (Math.random() * 40 - 20) + "deg"
-      },
-      rotateX: () => {
-          return "" + (Math.random() * 40 - 20) + "deg"
-      },
-      rotateY: () => {
-          return "" + (Math.random() * 40 - 20) + "deg"
-      },
-      filter: "blur(30px)"
+        yPercent: 100
       })
+      // this.$gsap.set(el, {
+      //   yPercent: 50,
+      //   rotateZ: (index, target) => {
+      //     return "" + (Math.random() * 40 - 20) + "deg"
+      // },
+      // rotateX: () => {
+      //     return "" + (Math.random() * 40 - 20) + "deg"
+      // },
+      // rotateY: () => {
+      //     return "" + (Math.random() * 40 - 20) + "deg"
+      // },
+      // filter: "blur(30px)"
+      // })
     },
 
     enter(el, done) {
       this.$gsap.to(el, {
         yPercent: 0,
-        opacity: 1,
         duration: 0.3,
         ease: 'power2.inOut',
-        onComplete: done,
-        rotateZ: 0,
-        rotateX: 0,
-        rotateY: 0,
-        filter: "blur(0px)"
+        onComplete: done
     })
+    //   this.$gsap.to(el, {
+    //     yPercent: 0,
+    //     opacity: 1,
+    //     duration: 0.3,
+    //     ease: 'power2.inOut',
+    //     onComplete: done,
+    //     rotateZ: 0,
+    //     rotateX: 0,
+    //     rotateY: 0,
+    //     filter: "blur(0px)"
+    // })
       },
 
     leave(el, done) {
@@ -106,19 +116,28 @@ export default {
         scale: 0.8,
         filter: "blur(30px)",
         opacity: 0,
-        duration: 0.4,
-        ease: 'power2.inOut',
+        duration: 0.25,
+        ease: 'power4.out',
         onComplete: done,
-        rotateZ: (index, target) => {
-          return "" + (Math.random() * 40 - 20) + "deg"
-      },
-      rotateX: () => {
-          return "" + (Math.random() * 40 - 20) + "deg"
-      },
-      rotateY: () => {
-          return "" + (Math.random() * 100 - 50) + "deg"
-      }
+        // yPercent: -70
       })
+      // this.$gsap.to(el, {
+      //   scale: 0.8,
+      //   filter: "blur(30px)",
+      //   opacity: 0,
+      //   duration: 0.4,
+      //   ease: 'power2.inOut',
+      //   onComplete: done,
+      //   rotateZ: (index, target) => {
+      //     return "" + (Math.random() * 40 - 20) + "deg"
+      // },
+      // rotateX: () => {
+      //     return "" + (Math.random() * 40 - 20) + "deg"
+      // },
+      // rotateY: () => {
+      //     return "" + (Math.random() * 100 - 50) + "deg"
+      // }
+      // })
     }
   }
 }

@@ -29,8 +29,13 @@ export default {
     methods: {
         cards() {
             const gsap = this.$gsap;
-
-            gsap.from(".artist-header>div", {
+            let tl = gsap.timeline({
+                defaults: { // children inherit these defaults
+                    duration: 0.5,
+                    ease: 'power4.out'
+                },
+            })
+            tl.from(".artist-header-top,.artist-header-title", {
                 delay: .4,
                 rotateZ: () => {
                     return "" + (Math.random() * 10 - 5) + "deg"
@@ -43,9 +48,45 @@ export default {
                 },
                 autoAlpha: 0,
                 scale: 0.7,
-                filter: "blur(10px)",
-                stagger: .4
+                filter: "blur(20px)",
+                // stagger: .05
             })
+                .from(".description", {
+                    // delay: .4,
+                    rotateZ: () => {
+                        return "" + (Math.random() * 10 - 5) + "deg"
+                    },
+                    rotateX: () => {
+                        return "" + (Math.random() * 10 - 5) + "deg"
+                    },
+                    rotateY: () => {
+                        return "" + (Math.random() * 10 - 5) + "deg"
+                    },
+                    autoAlpha: 0,
+                    scale: 0.7,
+                    filter: "blur(20px)",
+                    // stagger: .05
+                }, "-=50%")
+                .from(".description-border-right *", {
+                    // delay: .4,
+                    rotateZ: () => {
+                        return "" + (Math.random() * 10 - 5) + "deg"
+                    },
+                    rotateX: () => {
+                        return "" + (Math.random() * 10 - 5) + "deg"
+                    },
+                    rotateY: () => {
+                        return "" + (Math.random() * 10 - 5) + "deg"
+                    },
+                    autoAlpha: 0,
+                    scale: 0.7,
+                    filter: "blur(20px)",
+                    stagger: .05
+                }, "-=50%")
+                .from(".artistImages", {
+                    yPercent: 100,
+                    autoAlpha: 0
+                })
         }
     }
 }
@@ -115,7 +156,7 @@ export default {
     .title {
         /* display: inline-block; */
 
-        font-size: 30px;
+        font-size: 35px;
         line-height: 99%;
     }
 }
