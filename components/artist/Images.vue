@@ -88,14 +88,20 @@ export default {
 }
 
 .carousel-cell {
-    width: 100%;
+    height: 80vh;
 }
 
 img {
-    width: 100%;
+    height: 80vh;
+    border-right: white 2px solid;
 }
 
 @media screen and (max-width: 600px) {
+
+    img {
+        width: 95vw;
+        border-right: white 2px solid;
+    }
 
     .artistImages {
         width: 95vw;

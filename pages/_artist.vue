@@ -16,4 +16,8 @@ export default {
 }
 </script>
 
-<style></style>
+<style scoped>
+.wrapper {
+    font-size: 17px;
+}
+</style>

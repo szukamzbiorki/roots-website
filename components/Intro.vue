@@ -175,27 +175,14 @@ export default {
     flex-grow: 1;
 }
 
-.intro {
-
-    /* position: relative;
-    width: 400px;
-    height: 400px; */
-}
+.intro {}
 
 .card:not(:last-child) {
-    /* position: absolute;
-    background-color: white;
-    filter: url(#n1); */
     margin-bottom: 20px;
 }
 
 .intro-text {
-    max-width: 400px;
-    /* -webkit-shape-outside: polygon(0% 0%,
-            5% 5%,
-            10% 50%,
-            5% 95%,
-            0% 100%); */
+    max-width: 74ch;
 }
 
 .pin-spacer {
@@ -208,16 +195,17 @@ export default {
 
 .intro-border {
     float: left;
-    height: 500px;
-    width: 40px;
+    height: 68vh;
+    width: 240px;
     shape-outside: polygon(0% 0%, 98.5% 0.17%, 49.00% 11.91%, 18.81% 24.99%, 11% 41.59%, 25% 65.46%, 47.77% 83.34%, 98.3% 98.84%, 0.77% 98.79%);
     -webkit-shape-outside: polygon(0% 0%, 98.5% 0.17%, 49.00% 11.91%, 18.81% 24.99%, 11% 41.59%, 25% 65.46%, 47.77% 83.34%, 98.3% 98.84%, 0.77% 98.79%);
 }
 
+
 .intro-border-right {
     float: right;
-    height: 500px;
-    width: 40px;
+    height: 68vh;
+    width: 300px;
     shape-outside: polygon(41.00% 79.10%, 49.5% 54.01%, 50% 33.01%, 36.48% 16.46%, 2.44% 1.55%, 101% 0.73%, 99% 98.51%, 6.77% 99.22%);
     -webkit-shape-outside: polygon(41.00% 79.10%, 49.5% 54.01%, 50% 33.01%, 36.48% 16.46%, 2.44% 1.55%, 101% 0.73%, 99% 98.51%, 6.77% 99.22%);
 }

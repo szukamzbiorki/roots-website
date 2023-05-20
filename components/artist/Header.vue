@@ -124,6 +124,7 @@ export default {
     text-align: center;
     line-height: 300%;
     margin-bottom: 1.2rem;
+    justify-content: center;
     /* justify-content: flex-start; */
 }
 
@@ -161,6 +162,7 @@ export default {
 
     .artist-header-title {
         margin-bottom: .4rem;
+        max-width: 92vw;
     }
 
     .name,

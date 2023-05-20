@@ -62,13 +62,14 @@ export default {
 
 .description-text {
     shape-outside: ellipse(50%);
+    text-align: justify;
 }
 
 .description-border {
     /* flex: 1; */
     /* border: solid red; */
     float: left;
-    height: 320px;
+    height: 380px;
     width: 100px;
     shape-outside: polygon(0% 0%, 98.5% 0.17%, 49.00% 11.91%, 18.81% 24.99%, 11% 41.59%, 25% 65.46%, 47.77% 83.34%, 98.3% 98.84%, 0.77% 98.79%);
     -webkit-shape-outside: polygon(0% 0%, 98.5% 0.17%, 49.00% 11.91%, 18.81% 24.99%, 11% 41.59%, 25% 65.46%, 47.77% 83.34%, 98.3% 98.84%, 0.77% 98.79%);
@@ -76,9 +77,9 @@ export default {
 
 .description-border-right {
     /* border: solid green; */
-    /* padding-top: .3em; */
+    padding-top: .3em;
     float: right;
-    height: 320px;
+    height: 380px;
     width: 300px;
     shape-outside: polygon(41.00% 79.10%, 49.5% 54.01%, 50% 33.01%, 36.48% 16.46%, 2.44% 1.55%, 101% 0.73%, 99% 98.51%, 6.77% 99.22%);
     -webkit-shape-outside: polygon(41.00% 79.10%, 49.5% 54.01%, 50% 33.01%, 36.48% 16.46%, 2.44% 1.55%, 101% 0.73%, 99% 98.51%, 6.77% 99.22%);
@@ -87,7 +88,7 @@ export default {
 .description-border-right>* {
     padding-bottom: 1.28em;
     font-family: 'FluxischRegular';
-    font-size: .8em;
+    font-size: .7em;
 }
 
 .description-border-right::before {
@@ -97,7 +98,7 @@ export default {
     width: 100%;
     float: left;
     shape-outside: polygon(41% 79.1%, 49.5% 54.01%, 50% 33.01%, 36.48% 16.46%, 2.44% 1.55%, 2.67% 2.33%, 5.00% 100.91%, 6.77% 99.22%);
-    shape-margin: 4px;
+    shape-margin: 8px;
 }
 
 @media screen and (max-width: 600px) {
