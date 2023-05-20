@@ -31,7 +31,8 @@ export default {
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
     'nuxt-gsap-module',
-    '@nuxtjs/svg'
+    '@nuxtjs/svg',
+    'vue-slick'
   ],
 
   gsap: {
