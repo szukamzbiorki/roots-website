@@ -1,6 +1,6 @@
 <template>
     <div class="wrapper">
-        <NuxtLink class="back" to="/">Back to Roots</NuxtLink>
+        <NuxtLink class="back" to="/"><span class="rutz">Back to the ROOTS</span></NuxtLink>
         <div class="colophon">
             <section>
                 <div class="role">
@@ -88,7 +88,7 @@ export default {
                 autoAlpha: 0,
                 scale: 0.7,
                 filter: "blur(10px)",
-                stagger: .2
+                stagger: .13
             })
         }
     }
@@ -123,10 +123,15 @@ a,
 .back {
     position: absolute;
     top: 0;
-    left: 0;
+    left: 50vw;
+    transform: translateX(-50%);
 }
 
 .colophon>section:not(:last-child) {
     margin-bottom: 20px;
+}
+
+.rutz {
+    font-family: 'FluxischRegular';
 }
 </style>

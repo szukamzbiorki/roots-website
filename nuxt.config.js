@@ -96,7 +96,7 @@ export default {
     enter(el, done) {
       this.$gsap.to(el, {
         yPercent: 0,
-        duration: 0.3,
+        duration: 0.2,
         ease: 'power2.inOut',
         onComplete: done
     })

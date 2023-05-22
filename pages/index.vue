@@ -1,8 +1,10 @@
 <template>
   <div class="wrapper">
+    <span class="title">
+      ROOTS
+    </span>
     <div class="landing">
       <Header></Header>
-      <!-- <Intro></Intro> -->
     </div>
     <Artists :artists="artistlist"></Artists>
     <!-- <Potatos></Potatos> -->
@@ -26,15 +28,27 @@ export default {
   width: 100vw;
   height: 100vh;
   scrollbar-width: none;
-  /* Firefox */
+  /* overflow: hidden; */
 }
 
 .landing {
   width: 100vw;
-  /* height: 100vh; */
   display: flex;
   flex-direction: column;
   scrollbar-width: none;
-  /* Firefox */
+}
+</style>
+
+<style scoped>
+.wrapper {
+  overflow: hidden;
+}
+
+.title {
+  font-family: 'Fluxisch';
+  position: absolute;
+  left: 50vw;
+  top: 0;
+  transform: translateX(-50%);
 }
 </style>

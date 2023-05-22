@@ -1,10 +1,8 @@
 <template>
     <div class="header">
-        <NuxtLink to="/about">About</NuxtLink>
-        <span class="title">
-            ROOTS
-        </span>
-        <NuxtLink to="/colophon">Colophon</NuxtLink>
+        <NuxtLink class="about" to="/about">About</NuxtLink>
+
+        <NuxtLink class="colophon" to="/colophon">Colophon</NuxtLink>
     </div>
 </template>
 
@@ -14,15 +12,23 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 .header {
     flex-grow: 0;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    width: 100%;
+    box-sizing: border-box;
 }
 
-.title {
-    font-family: 'Fluxisch';
+
+
+.about {
+    justify-self: flex-start;
+}
+
+.colophon {
+    justify-self: flex-end;
 }
 </style>

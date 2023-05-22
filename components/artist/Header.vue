@@ -1,6 +1,6 @@
 <template>
     <div class="artist-header">
-        <NuxtLink class="back" to="/">Back to the Roots</NuxtLink>
+        <NuxtLink class="back" to="/"><span class="rutz">Back to the ROOTS</span></NuxtLink>
         <div class="artist-header-top">
             <div class="name">{{ artists.name }}<a :href="'https://instagram.com/' + artists.instagram" class="insta">@{{
                 artists.instagram }}</a>
@@ -108,13 +108,14 @@ export default {
     justify-content: center;
     align-items: center;
     filter: url(#n1);
+
 }
 
 .artist-header-top {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    margin-top: 30px;
+    margin-top: 50px;
 }
 
 .artist-header-title {
@@ -122,7 +123,8 @@ export default {
     flex-direction: row;
     max-width: 70vw;
     text-align: center;
-    line-height: 300%;
+    line-height: 5rem;
+    margin-top: -20px;
     margin-bottom: 1.2rem;
     justify-content: center;
     /* justify-content: flex-start; */
@@ -156,6 +158,10 @@ export default {
     padding-left: 7px;
     display: inline;
     font-size: 15px;
+}
+
+.rutz {
+    font-family: 'FluxischRegular';
 }
 
 @media screen and (max-width: 600px) {

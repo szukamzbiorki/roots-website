@@ -52,7 +52,7 @@ export default {
 
 <style scoped>
 .artistImages {
-    width: 70vw;
+    width: 100vw;
 }
 
 .artistImages>img {
