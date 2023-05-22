@@ -20,4 +20,10 @@ export default {
 .wrapper {
     font-size: 17px;
 }
+
+@media screen and (max-width: 600px) {
+    .wrapper {
+        font-size: 15px;
+    }
+}
 </style>
