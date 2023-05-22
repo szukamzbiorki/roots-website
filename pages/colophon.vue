@@ -1,6 +1,6 @@
 <template>
     <div class="wrapper">
-        <NuxtLink to="/">Back to Roots</NuxtLink>
+        <NuxtLink class="back" to="/">Back to Roots</NuxtLink>
         <div class="colophon">
             <section>
                 <div class="role">
@@ -20,10 +20,12 @@
             </section>
             <section>
                 <div class="role">
-                    Production
+                    Website design & development
                 </div>
                 <div class="person">
-                    Lucy Gengler
+                    <a target=”_blank” href="https://bartekp.nl">
+                        Bartek Pierściński
+                    </a>
                 </div>
             </section>
 
@@ -81,8 +83,12 @@ p {
     text-align: center;
 }
 
-a {
+a,
+.back {
     color: white;
+}
+
+.back {
     position: absolute;
     top: 0;
     left: 0;

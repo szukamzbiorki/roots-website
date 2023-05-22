@@ -1,5 +1,6 @@
 <template>
     <div class="header">
+        <NuxtLink to="/about">About</NuxtLink>
         <span class="title">
             ROOTS
         </span>

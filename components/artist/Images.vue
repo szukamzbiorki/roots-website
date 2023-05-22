@@ -26,8 +26,7 @@ export default {
                 pageDots: false,
                 wrapAround: true,
                 imagesLoaded: true,
-                adaptiveHeight: true,
-                wrapAround: true
+                adaptiveHeight: true
                 // on: {
                 //     ready: () => { imagesLoaded(this.$refs.flickity, this.loadComplete) }
                 // }
