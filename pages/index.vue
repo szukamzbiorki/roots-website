@@ -5,7 +5,7 @@
       <!-- <Intro></Intro> -->
     </div>
     <Artists :artists="artistlist"></Artists>
-    <Potatos></Potatos>
+    <!-- <Potatos></Potatos> -->
   </div>
 </template>
 
