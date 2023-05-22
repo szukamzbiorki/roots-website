@@ -6,7 +6,7 @@
                 <span class="keyword" v-for="keyword in keywords" :key="keyword.id">{{ keyword }}</span>
             </div>
             <div class="kind">{{ kind }}</div>
-            <div class="size">
+            <div v-if="sizes[0] != 0" class="size">
                 <span class="sizepiece" v-for="size in sizes" :key="size.id">{{ size }}</span>
             </div>
             <div class="material">{{ medium }}</div>
@@ -58,21 +58,16 @@ export default {
 
 .description {
     /* border: 1px solid black; */
-    /* position: relative; */
     max-width: 80ch;
     overflow: auto;
-    /* display: flex; */
-    /* flex-wrap: wrap; */
-    /* border: solid black; */
+    text-align: justify;
 }
 
 .description-text {
     shape-outside: ellipse(50%);
-    text-align: justify;
 }
 
 .description-border {
-    /* flex: 1; */
     /* border: solid red; */
     float: left;
     height: 380px;
@@ -83,6 +78,7 @@ export default {
 
 .description-border-right {
     /* border: solid green; */
+    text-align: left;
     padding-top: .3em;
     float: right;
     height: 380px;
