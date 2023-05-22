@@ -1,28 +1,31 @@
 <template>
     <div class="content">
-        <SanityContent :blocks="process" />
+        <SanityContent :blocks="process" :serializers="serializers" />
     </div>
 </template>
 
 <script>
-import { h } from "vue";
+// import { h } from "vue";
+// import imageUrlBuilder from '@sanity/image-url'
+import InlineImage from '~/components/InlineImage.vue'
+
 export default {
-    setup() {
-        // const serializers = {
-        //     types: {
-        //         image: (data) => {
-        //             return h("img", { src: this.imageUrlFor(data).width(400).url() });
-        //         },
-        //     },
-        // };
-        // return { serializers };
+    data() {
+        return {
+            // specify a custom serializer
+            serializers: {
+                types: {
+                    image: InlineImage
+                }
+            }
+        }
     },
     props: {
         process: Array
     },
     mounted() {
         console.log(this.process)
-    }
+    },
 }
 </script>
 
@@ -30,5 +33,10 @@ export default {
 .content {
     max-width: 80ch;
     margin: auto;
+}
+
+.inline-img {
+    float: left;
+    max-width: 80ch;
 }
 </style>

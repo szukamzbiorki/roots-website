@@ -7,7 +7,7 @@
                     Production
                 </div>
                 <div class="person">
-                    Lucy Gengler
+                    Lucy Gengler & Julie Werenskjold Sørensen
                 </div>
             </section>
             <section>
@@ -15,7 +15,7 @@
                     Curation
                 </div>
                 <div class="person">
-                    Lucy Gengler
+                    Aliona Ciobanu & Emma Hopchet & Iben Hegreberg & Julie Werenskjold Sørensen
                 </div>
             </section>
             <section>
@@ -23,7 +23,7 @@
                     Design
                 </div>
                 <div class="person">
-                    Stefaniia Bodnia & Aliona Ciobanu
+                    Stefaniia Bodnia & Aliona Ciobanu & Dagný Rósa Vignisdóttir
                 </div>
             </section>
             <section>
