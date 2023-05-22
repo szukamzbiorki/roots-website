@@ -15,7 +15,7 @@ import { groq } from '@nuxtjs/sanity'
 export default {
   name: "IndexPage",
   asyncData({ params, $sanity }) {
-    const query = groq`{ "artistlist": *[_type == "artist"]{name, short} }`
+    const query = groq`{ "artistlist": *[_type == "artist"] | order(name asc){name, short} }`
     return $sanity.fetch(query)
   },
 }
