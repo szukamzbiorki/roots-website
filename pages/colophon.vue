@@ -12,10 +12,42 @@
             </section>
             <section>
                 <div class="role">
-                    Production
+                    Curation
                 </div>
                 <div class="person">
                     Lucy Gengler
+                </div>
+            </section>
+            <section>
+                <div class="role">
+                    Design
+                </div>
+                <div class="person">
+                    Stefaniia Bodnia & Aliona Ciobanu
+                </div>
+            </section>
+            <section>
+                <div class="role">
+                    Photography
+                </div>
+                <div class="person">
+                    Roel Backaert
+                </div>
+            </section>
+            <section>
+                <div class="role">
+                    Proofreading
+                </div>
+                <div class="person">
+                    Lauren Alexander
+                </div>
+            </section>
+            <section>
+                <div class="role">
+                    Supervision
+                </div>
+                <div class="person">
+                    Katrin Korfmann & Maarten Cornel
                 </div>
             </section>
             <section>
@@ -96,6 +128,5 @@ a,
 
 .colophon>section:not(:last-child) {
     margin-bottom: 20px;
-
 }
 </style>

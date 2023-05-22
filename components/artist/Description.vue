@@ -11,9 +11,8 @@
             </div>
             <div class="material">{{ medium }}</div>
         </div>
-        <div class="description-text">
-            {{ description }}
-        </div>
+        {{ description }}
+        <div style="clear: both; content: ''; display: block;">&nbsp;</div>
     </div>
 </template>
 
@@ -51,10 +50,17 @@ export default {
     content: "×";
 }
 
+.artist-header-rest:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
 .description {
+    /* border: 1px solid black; */
+    /* position: relative; */
     max-width: 80ch;
     overflow: auto;
-    height: auto;
     /* display: flex; */
     /* flex-wrap: wrap; */
     /* border: solid black; */
