@@ -1,5 +1,8 @@
 <template>
-    <img class="inline-img" :src="urlFor(asset._ref).width(1000).url()" />
+    <div>
+        <img class="inline-img" :src="urlFor(asset._ref).width(1000).url()" />
+        <p class="image-caption">{{ caption }}</p>
+    </div>
 </template>
   
 <script>
@@ -11,7 +14,8 @@ export default {
         asset: {
             type: Object,
             required: true
-        }
+        },
+        caption: String
     },
     methods: {
         urlFor(src) {

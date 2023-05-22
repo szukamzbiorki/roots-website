@@ -39,4 +39,9 @@ export default {
     float: left;
     max-width: 80ch;
 }
+
+.image-caption {
+    font-family: 'Fell-Italic';
+    font-size: 1rem;
+}
 </style>
