@@ -183,6 +183,7 @@ export default {
 
 .intro-text {
     max-width: 74ch;
+    text-align: justify;
 }
 
 .pin-spacer {
@@ -208,5 +209,19 @@ export default {
     width: 300px;
     shape-outside: polygon(41.00% 79.10%, 49.5% 54.01%, 50% 33.01%, 36.48% 16.46%, 2.44% 1.55%, 101% 0.73%, 99% 98.51%, 6.77% 99.22%);
     -webkit-shape-outside: polygon(41.00% 79.10%, 49.5% 54.01%, 50% 33.01%, 36.48% 16.46%, 2.44% 1.55%, 101% 0.73%, 99% 98.51%, 6.77% 99.22%);
+}
+
+@media screen and (max-width: 600px) {
+    .intro-border {
+        width: 40px;
+        height: 90vh;
+        shape-margin: 10px;
+    }
+
+    .intro-border-right {
+        width: 60px;
+        height: 90vh;
+    }
+
 }
 </style>

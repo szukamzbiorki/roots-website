@@ -99,7 +99,8 @@ img {
 @media screen and (max-width: 600px) {
 
     img {
-        width: 95vw;
+        height: auto;
+        max-width: 95vw;
         border-right: white 2px solid;
     }
 

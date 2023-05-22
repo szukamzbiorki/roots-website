@@ -26,7 +26,7 @@ export default {
     },
     mounted() {
         this.cards()
-        console.log(this.artists)
+        // console.log(this.artists)
     },
     methods: {
         cards() {

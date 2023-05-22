@@ -5,7 +5,18 @@
 </template>
 
 <script>
+import { h } from "vue";
 export default {
+    setup() {
+        // const serializers = {
+        //     types: {
+        //         image: (data) => {
+        //             return h("img", { src: this.imageUrlFor(data).width(400).url() });
+        //         },
+        //     },
+        // };
+        // return { serializers };
+    },
     props: {
         process: Array
     },
