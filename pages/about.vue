@@ -5,7 +5,7 @@
     </div>
 </template>
 
-<style>
+<style scoped>
 .wrapper {
     display: flex;
     justify-content: center;
