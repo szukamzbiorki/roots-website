@@ -62,6 +62,7 @@ export default {
     width: 300px;
     margin: 0 auto;
     height: 100dvh;
+    height: 100vh;
     display: flex;
     justify-content: center;
     flex-direction: column;

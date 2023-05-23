@@ -1,7 +1,7 @@
 <template>
-    <div>
+    <div class="inline-img-container">
         <img class="inline-img" :src="urlFor(asset._ref).width(1000).url()" />
-        <p class="image-caption">{{ caption }}</p>
+        <p v-if="caption" class="image-caption">{{ caption }}</p>
     </div>
 </template>
   

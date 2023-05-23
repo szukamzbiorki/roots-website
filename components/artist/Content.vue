@@ -33,15 +33,28 @@ export default {
     margin-bottom: 70px;
 }
 
+
+
+.inline-img-container {
+    max-width: 60ch;
+    box-sizing: border-box;
+    display: block;
+}
+
+.inline-img-container::after {}
+
 .inline-img {
-    max-width: 80ch;
+    max-width: 20vw;
 }
 
 .image-caption {
     font-family: 'Fell-Italic';
     font-size: 1rem;
-    margin-left: 25px;
+    padding-left: 25px;
+    margin: 0 0 1rem 0;
+    max-width: 20vw;
     box-sizing: border-box;
+    clear: both;
 }
 
 @media screen and (max-width: 600px) {
@@ -53,6 +66,12 @@ export default {
         padding-left: 25px;
         margin: 0 0 1rem 0;
         max-width: 100vw;
+    }
+
+    .content {
+        max-width: 90vw;
+        margin: auto;
+        margin-bottom: 70px;
     }
 }
 </style>
