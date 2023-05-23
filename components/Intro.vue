@@ -168,7 +168,7 @@ export default {
 <style>
 .intro-wrapper {
     font-family: "Fell";
-    width: 100%;
+    width: 93vw;
     display: flex;
     justify-content: center;
     align-items: center;
