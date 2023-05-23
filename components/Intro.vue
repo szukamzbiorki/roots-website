@@ -168,7 +168,7 @@ export default {
 <style>
 .intro-wrapper {
     font-family: "Fell";
-    width: 90vw;
+    width: 50ch;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -213,6 +213,11 @@ export default {
 }
 
 @media screen and (max-width: 600px) {
+    .intro-wrapper {
+        width: 90vw;
+        margin: 0 auto;
+    }
+
     .intro-border {
         width: 40px;
         height: 90vh;
