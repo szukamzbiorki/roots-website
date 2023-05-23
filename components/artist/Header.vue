@@ -167,6 +167,7 @@ export default {
 @media screen and (max-width: 600px) {
 
     .artist-header-title {
+        margin-top: -.3rem;
         margin-bottom: .4rem;
         max-width: 92vw;
     }

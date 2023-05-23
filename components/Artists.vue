@@ -75,4 +75,14 @@ export default {
     display: block;
     text-align: center;
 }
+
+@media screen and (max-width: 600px) {
+    .artists {
+        height: auto;
+    }
+
+    .artists>* {
+        margin-bottom: 9px;
+    }
+}
 </style>
