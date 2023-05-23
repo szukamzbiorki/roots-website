@@ -79,6 +79,7 @@ export default {
 @media screen and (max-width: 600px) {
     .artists {
         height: auto;
+        margin-bottom: 20vh;
     }
 
     .artists>* {
