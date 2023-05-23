@@ -117,7 +117,6 @@ export default {
 
 
     .description-border-right>* {
-
         font-size: .55em;
     }
 }

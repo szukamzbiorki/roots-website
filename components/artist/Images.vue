@@ -1,18 +1,18 @@
 <template>
     <div class="artistImages">
-        <no-ssr>
-            <div class="buttons">
-                <button @click="previous()">Previous</button>
-                <button @click="next()">Next</button>
+        <!-- <no-ssr> -->
+        <div class="buttons">
+            <button @click="previous()">Previous</button>
+            <button @click="next()">Next</button>
+        </div>
+        <flickity ref="flickity" :options="flickityOptions">
+            <div v-for="image in images" :key="image.id" class="carousel-cell">
+                <img :src="image.asset.url" alt="">
             </div>
-            <flickity ref="flickity" :options="flickityOptions">
-                <div v-for="image in images" :key="image.id" class="carousel-cell">
-                    <img :src="image.asset.url" alt="">
-                </div>
 
-            </flickity>
+        </flickity>
 
-        </no-ssr>
+        <!-- </no-ssr> -->
     </div>
 </template>
 
@@ -55,21 +55,12 @@ export default {
     width: 100vw;
 }
 
-.artistImages>img {
-    max-width: 100%;
-}
-
-.artistImages>img:not(:last-child) {
-    padding-bottom: 5px;
-}
-
 .flickity-slider {
     max-width: 100%;
 }
 
-.slick-slider {
-    display: flex;
-    background-color: white;
+.flickity-viewport {
+    height: auto !important;
 }
 
 .buttons {
@@ -87,11 +78,11 @@ export default {
 }
 
 .carousel-cell {
-    height: 80vh;
+    /* height: 80vh; */
 }
 
 img {
-    height: 80vh;
+    /* height: 80vh; */
     border-right: white 4px solid;
 }
 
@@ -102,5 +93,10 @@ img {
         max-width: 95vw;
         border-right: white 2px solid;
     }
+
+    .carousel-cell {
+        height: auto;
+    }
+
 }
 </style>
