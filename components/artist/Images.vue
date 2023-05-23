@@ -78,11 +78,11 @@ export default {
 }
 
 .carousel-cell {
-    /* height: 80vh; */
+    height: 80vh;
 }
 
 img {
-    /* height: 80vh; */
+    height: 80vh;
     border-right: white 4px solid;
 }
 
