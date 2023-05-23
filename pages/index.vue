@@ -44,6 +44,12 @@ export default {
   overflow: hidden;
 }
 
+@media screen and (max-width: 600px) {
+  .wrapper {
+    overflow: scroll;
+  }
+}
+
 .title {
   font-family: 'Fluxisch';
   position: absolute;
