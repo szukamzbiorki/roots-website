@@ -30,15 +30,28 @@ export default {
 .content {
     max-width: 80ch;
     margin: auto;
+    margin-bottom: 70px;
 }
 
 .inline-img {
-    float: left;
     max-width: 80ch;
 }
 
 .image-caption {
     font-family: 'Fell-Italic';
     font-size: 1rem;
+    margin-left: 25px;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 600px) {
+    .inline-img {
+        max-width: 100vw;
+    }
+
+    .image-caption {
+        padding-left: 25px;
+        max-width: 100vw;
+    }
 }
 </style>

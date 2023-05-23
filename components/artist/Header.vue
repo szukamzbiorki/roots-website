@@ -127,7 +127,6 @@ export default {
     margin-top: -20px;
     margin-bottom: -0.6rem;
     justify-content: center;
-    /* justify-content: flex-start; */
 }
 
 .artist-header-rest {
@@ -174,8 +173,6 @@ export default {
 
     .name,
     .title {
-        /* display: inline-block; */
-
         font-size: 35px;
         line-height: 99%;
     }

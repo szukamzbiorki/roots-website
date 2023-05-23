@@ -1,12 +1,12 @@
 <template>
     <div class="intro-wrapper">
         <div class="intro">
-            <div class="intro-border">
+            <!-- <div class="intro-border">
 
             </div>
             <div class="intro-border-right">
 
-            </div>
+            </div> -->
             <div class="card one">
 
                 <div class="intro-text">

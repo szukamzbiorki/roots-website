@@ -92,7 +92,7 @@ export default {
 
 img {
     height: 80vh;
-    border-right: white 2px solid;
+    border-right: white 4px solid;
 }
 
 @media screen and (max-width: 600px) {
