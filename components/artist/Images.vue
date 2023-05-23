@@ -26,7 +26,7 @@ export default {
                 pageDots: false,
                 wrapAround: true,
                 imagesLoaded: true,
-                adaptiveHeight: true
+                // adaptiveHeight: true
             }
         };
     },

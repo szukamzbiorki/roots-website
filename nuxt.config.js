@@ -43,12 +43,7 @@ export default {
     extraEases: {
     }
   },
-
-  loadingIndicator: {
-    name: 'circle',
-    color: '#3B8070',
-    background: 'white'
-  },
+  loading: false,
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
