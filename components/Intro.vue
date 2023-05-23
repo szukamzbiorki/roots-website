@@ -168,11 +168,12 @@ export default {
 <style>
 .intro-wrapper {
     font-family: "Fell";
-    width: 93vw;
+    width: 90vw;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-grow: 1;
+    margin: 0 auto;
 }
 
 .intro {}
