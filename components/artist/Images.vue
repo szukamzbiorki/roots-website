@@ -73,6 +73,7 @@ export default {
     outline: 0;
     font-family: 'FluxischRegular';
     font-size: .8em;
+    color: darkgrey;
 }
 
 .carousel-cell {
