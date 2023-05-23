@@ -102,9 +102,5 @@ img {
         max-width: 95vw;
         border-right: white 2px solid;
     }
-
-    .artistImages {
-        width: 95vw;
-    }
 }
 </style>
