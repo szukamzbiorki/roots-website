@@ -1,18 +1,18 @@
 <template>
     <div class="artistImages">
-        <!-- <no-ssr> -->
-        <div class="buttons">
-            <button @click="previous()">Previous</button>
-            <button @click="next()">Next</button>
-        </div>
-        <flickity ref="flickity" :options="flickityOptions">
-            <div v-for="image in images" :key="image.id" class="carousel-cell">
-                <img :src="image.asset.url" alt="">
+        <no-ssr>
+            <div class="buttons">
+                <button @click="previous()">Previous</button>
+                <button @click="next()">Next</button>
             </div>
+            <flickity ref="flickity" :options="flickityOptions">
+                <div v-for="image in images" :key="image.id" class="carousel-cell">
+                    <img :src="image.asset.url" alt="">
+                </div>
 
-        </flickity>
+            </flickity>
 
-        <!-- </no-ssr> -->
+        </no-ssr>
     </div>
 </template>
 
