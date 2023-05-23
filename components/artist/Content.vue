@@ -59,7 +59,7 @@ export default {
 
 @media screen and (max-width: 600px) {
     .inline-img {
-        max-width: 100vw;
+        max-width: 90vw;
     }
 
     .image-caption {
