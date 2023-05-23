@@ -125,7 +125,7 @@ export default {
     text-align: center;
     line-height: 5rem;
     margin-top: -20px;
-    margin-bottom: 1.2rem;
+    margin-bottom: -0.6rem;
     justify-content: center;
     /* justify-content: flex-start; */
 }

@@ -5,14 +5,11 @@
 </template>
 
 <script>
-// import { h } from "vue";
-// import imageUrlBuilder from '@sanity/image-url'
 import InlineImage from '~/components/InlineImage.vue'
 
 export default {
     data() {
         return {
-            // specify a custom serializer
             serializers: {
                 types: {
                     image: InlineImage

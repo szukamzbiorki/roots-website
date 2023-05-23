@@ -8,7 +8,6 @@
 <script>
 import imageUrlBuilder from '@sanity/image-url'
 
-
 export default {
     props: {
         asset: {
