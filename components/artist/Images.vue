@@ -27,9 +27,6 @@ export default {
                 wrapAround: true,
                 imagesLoaded: true,
                 adaptiveHeight: true
-                // on: {
-                //     ready: () => { imagesLoaded(this.$refs.flickity, this.loadComplete) }
-                // }
             }
         };
     },
@@ -61,6 +58,7 @@ export default {
 
 .flickity-viewport {
     height: auto !important;
+    transition: height 0.2s;
 }
 
 .buttons {
