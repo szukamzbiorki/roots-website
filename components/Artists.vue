@@ -80,6 +80,7 @@ export default {
     .artists {
         height: auto;
         margin-bottom: 20vh;
+        margin-top: 8px;
     }
 
     .artists>* {
