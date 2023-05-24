@@ -11,7 +11,6 @@
             </div>
         </div>
         <div class="artist-header-rest">
-
             <ArtistDescription :keywords="artists.keywords" :kind="artists.kind" :sizes="artists.size"
                 :medium="artists.medium" :description="artists.description">
             </ArtistDescription>
@@ -27,10 +26,11 @@ export default {
     },
     mounted() {
         this.cards()
-        // console.log(this.artists)
+        console.log(this.artists.instagram)
     },
     methods: {
         cards() {
+            console.log
             const gsap = this.$gsap;
             let tl = gsap.timeline({
                 defaults: { // children inherit these defaults

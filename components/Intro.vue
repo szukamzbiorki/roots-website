@@ -155,7 +155,7 @@ export default {
         width: 90vw;
         margin: 0 auto;
         align-items: flex-start;
-        margin-top: 3rem;
+        margin-top: 4.2rem;
     }
 
     .intro-border {
