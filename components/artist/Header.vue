@@ -2,8 +2,9 @@
     <div class="artist-header">
         <NuxtLink class="back" to="/"><span class="rutz">Back to the ROOTS</span></NuxtLink>
         <div class="artist-header-top">
-            <div class="name">{{ artists.name }}<a :href="'https://instagram.com/' + artists.instagram" class="insta">@{{
-                artists.instagram }}</a>
+            <div class="name">{{ artists.name }}<a v-if="artists.instagram"
+                    :href="'https://instagram.com/' + artists.instagram" class="insta">@{{
+                        artists.instagram }}</a>
             </div>
             <div class="artist-header-title">
                 <div class="title">{{ artists.title }}</div>
