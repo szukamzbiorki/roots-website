@@ -21,7 +21,7 @@ export default {
         process: Array
     },
     mounted() {
-        console.log(this.process)
+        // console.log(this.process)
     },
 }
 </script>

@@ -1,7 +1,7 @@
 <template>
     <div class="description">
-        <div class="description-border"></div>
-        <div class="description-border-right">
+        <div class="description-border" :style="{ height: `${height}px` }"></div>
+        <div class="description-border-right" :style="{ height: `${height}px` }">
             <div class="keywords">
                 <span class="keyword" v-for="keyword in keywords" :key="keyword.id">{{ keyword }}</span>
             </div>
@@ -11,8 +11,7 @@
             </div>
             <div class="material">{{ medium }}</div>
         </div>
-        {{ description }}
-        <div style="clear: both; content: ''; display: block;">&nbsp;</div>
+        <div class="desc-text">{{ description }}</div>
     </div>
 </template>
 
@@ -25,6 +24,55 @@ export default {
         kind: String,
         medium: String
     },
+    data() {
+        return {
+            height: 1,
+            interval: null
+        };
+    },
+    methods: {
+        changeHeight() {
+            const descH = document.querySelector('.desc-text').clientHeight
+            if (descH > this.height) {
+                // this.height = this.height + 10;
+                this.height = Math.max(this.height, descH)
+                this.interval = window.requestAnimationFrame(this.changeHeight)
+            } else {
+                window.cancelAnimationFrame(this.interval)
+            }
+        }
+    },
+    mounted() {
+        this.interval = window.requestAnimationFrame(this.changeHeight)
+    },
+    beforeDestroy() {
+        window.cancelAnimationFrame(this.interval)
+    }
+    // data: () => ({
+    //     height: 1
+    // }),
+    // mounted() {
+    //     console.log('mounted')
+    //     this.height = 1
+    //     let ani = window.requestAnimationFrame(this.changeHeight);
+    // },
+    // destroyed() {
+    //     window.cancelAnimationFrame(this.height);
+    //     this.height = 1;
+    // },
+    // methods: {
+    //     changeHeight() {
+    //         const descH = document.querySelector('.desc-text').clientHeight
+    //         console.log('ok')
+    //         console.log(descH, this.height)
+    //         this.height = Math.min(this.height, descH)
+    //         if (descH > this.height) {
+    //             this.height = window.requestAnimationFrame(this.changeHeight)
+    //         } else {
+    //             return descH
+    //         }
+    //     }
+    // }
 }
 </script>
 
@@ -83,8 +131,8 @@ export default {
     float: right;
     height: 380px;
     width: 300px;
-    shape-outside: polygon(82.66% 84.56%, 92.3% 66.23%, 64.49% 52.97%, 46.51% 48.95%, 42% 37.42%, 36.47% 26.71%, 23.48% 11.27%, 2.44% 1.55%, 101% 0.73%, 99% 98.51%, 31.1% 99.74%, 55.26% 95.59%);
-    -webkit-shape-outside: polygon(82.66% 84.56%, 92.3% 66.23%, 64.49% 52.97%, 46.51% 48.95%, 42% 37.42%, 36.47% 26.71%, 23.48% 11.27%, 2.44% 1.55%, 101% 0.73%, 99% 98.51%, 31.1% 99.74%, 55.26% 95.59%);
+    shape-outside: polygon(45.65% 83.07%, 50.63% 66.6%, 49.49% 57.43%, 46.51% 48.95%, 42% 37.42%, 36.47% 26.71%, 23.48% 11.27%, 2.44% 1.55%, 101% 0.73%, 98.33% 97.77%, 34.43% 99%, 40.6% 94.85%);
+    -webkit-shape-outside: polygon(45.65% 83.07%, 50.63% 66.6%, 49.49% 57.43%, 46.51% 48.95%, 42% 37.42%, 36.47% 26.71%, 23.48% 11.27%, 2.44% 1.55%, 101% 0.73%, 98.33% 97.77%, 34.43% 99%, 40.6% 94.85%);
 }
 
 .description-border-right>* {
