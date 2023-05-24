@@ -60,6 +60,14 @@
                     </a>
                 </div>
             </section>
+            <section>
+                <div class="role">
+                    Typefaces
+                </div>
+                <div class="person">
+                    IM Fell English<br>Fluxisch Else
+                </div>
+            </section>
 
         </div>
     </div>
