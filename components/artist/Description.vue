@@ -48,31 +48,6 @@ export default {
     beforeDestroy() {
         window.cancelAnimationFrame(this.interval)
     }
-    // data: () => ({
-    //     height: 1
-    // }),
-    // mounted() {
-    //     console.log('mounted')
-    //     this.height = 1
-    //     let ani = window.requestAnimationFrame(this.changeHeight);
-    // },
-    // destroyed() {
-    //     window.cancelAnimationFrame(this.height);
-    //     this.height = 1;
-    // },
-    // methods: {
-    //     changeHeight() {
-    //         const descH = document.querySelector('.desc-text').clientHeight
-    //         console.log('ok')
-    //         console.log(descH, this.height)
-    //         this.height = Math.min(this.height, descH)
-    //         if (descH > this.height) {
-    //             this.height = window.requestAnimationFrame(this.changeHeight)
-    //         } else {
-    //             return descH
-    //         }
-    //     }
-    // }
 }
 </script>
 
@@ -127,7 +102,7 @@ export default {
 .description-border-right {
     /* border: solid green; */
     text-align: left;
-    padding-top: .3em;
+    padding-top: 0em;
     float: right;
     height: 380px;
     width: 300px;
@@ -147,7 +122,7 @@ export default {
     height: 100%;
     width: 100%;
     float: left;
-    shape-outside: polygon(41% 79.1%, 49.5% 54.01%, 50% 33.01%, 36.48% 16.46%, 2.44% 1.55%, 2.67% 2.33%, 5.00% 100.91%, 6.77% 99.22%);
+    shape-outside: polygon(51.33% 77.45%, 51.83% 63.93%, 49.06% 44.98%, 46.67% 35.49%, 28.48% 15.22%, 2.44% 1.55%, 2.67% 2.33%, 2.33% 99.67%, 28.44% 100.05%, 45.43% 93.07%);
     shape-margin: 8px;
 }
 
