@@ -901,6 +901,12 @@
 
 .desktop-potatos>g:not(:nth-child(1)) {
     cursor: pointer;
+    transition: .8 all ease;
+}
+
+.desktop-potatos>g:not(:nth-child(1)):hover {
+    /* transform: scale(1.1); */
+    color: grey;
 }
 </style>
 
@@ -928,7 +934,7 @@ export default {
                 autoAlpha: 0,
                 scale: 0.7,
                 filter: "blur(10px)",
-                stagger: .1
+                stagger: .07
             })
         },
         rout(event) {

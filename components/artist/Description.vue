@@ -84,6 +84,7 @@ export default {
     max-width: 80ch;
     overflow: auto;
     text-align: justify;
+    overflow: hidden;
 }
 
 .description-text {
