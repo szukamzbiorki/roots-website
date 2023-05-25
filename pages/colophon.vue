@@ -55,7 +55,7 @@
                     Website design
                 </div>
                 <div class="person">
-                    Stefaniia Bodnia<br>
+                    Stefaniia Bodnia &
                     <a target=”_blank” href="https://bartekp.nl">
                         Bartek Pierściński
                     </a>
