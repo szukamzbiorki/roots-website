@@ -1,6 +1,6 @@
 import { onMounted, onUnmounted, ref } from "vue";
 
-const calcMobile = (windowWidth) => windowWidth <= 820;
+const calcMobile = (windowWidth) => windowWidth <= 600;
 
 export default function useScreenType() {
   const isMobile = ref(false);

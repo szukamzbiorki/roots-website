@@ -8,26 +8,34 @@
     </div>
     <!-- <Artists :artists="artistlist"></Artists> -->
     <div class="potatos">
-      <Desktop></Desktop>
+      <Mobile v-if="isMobile"></Mobile>
+      <Desktop v-else="isMobile"></Desktop>
+      <!-- <Desktop></Desktop> -->
     </div>
 
     <!-- <Potatos></Potatos> -->
   </div>
 </template>
 
+<script setup>
+import useScreenType from "../utils/useScreenType";
+
+const { isMobile } = useScreenType();
+</script>
+
 <script>
 import { groq } from '@nuxtjs/sanity'
-import useScreenType from "../utils/useScreenType.js";
+// import useScreenType from "../utils/useScreenType.js";
 
 export default {
   setup() {
-    const { isDesktop } = useScreenType();
-    return isDesktop
+    // const { isDesktop } = useScreenType();
+    // return isDesktop
   },
   created() {
-    let isit = this.isDesktop
+    // let isit = this.isDesktop
   },
-  name: "IndexPage",
+  name: "Landing",
   asyncData({ params, $sanity }) {
     const query = groq`{ "artistlist": *[_type == "artist"] | order(name asc){name, short} }`
     return $sanity.fetch(query)

@@ -1,10 +1,10 @@
 <template>
-    <svg version="1.1" id="_x32__copy_xA0_Image_00000109006781952898340360000002862324517230035090_"
-        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1280 800"
-        class="desktop-potatos" style="enable-background:new 0 0 1280 800;" xml:space="preserve" preserveAspectRatio="none">
+	<svg version="1.1" id="_x32__copy_xA0_Image_00000109006781952898340360000002862324517230035090_"
+		xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1280 800"
+		class="desktop-potatos" style="enable-background:new 0 0 1280 800;" xml:space="preserve">
 
-        <g>
-            <path class="st0" d="M1249.8,422.4c-0.5-0.8-1-1.7-1.5-2.5c-0.1-0.6-0.2-1.2-0.3-1.8c-0.3-0.9-0.5-1.8-0.8-2.7
+		<g>
+			<path class="st0" d="M1249.8,422.4c-0.5-0.8-1-1.7-1.5-2.5c-0.1-0.6-0.2-1.2-0.3-1.8c-0.3-0.9-0.5-1.8-0.8-2.7
 		c-0.4-2.6-0.7-5.3-1.1-7.9c-0.6-1.1-1.6-2.2-1.6-3.3c-0.1-5.5,0-11.1,0-16.6c0-0.6,0-1.2,0.1-1.8c-0.4-2-0.7-4.1-1.1-6.1
 		c-0.2-0.4-0.5-0.7-0.7-1.1c-1.5-4.3-3-8.5-4.6-12.7c-0.7-1.8-1.7-3.5-2.5-5.2c-0.8-1.2-1.6-2.4-2.4-3.7c-2.5-2.4-5-4.7-7.4-7.1
 		c-1-1.1-2.1-2.3-3.1-3.4c-1.4-2.1-2.8-4.2-4.2-6.3c-0.9-1.2-1.8-2.4-2.7-3.7c-2.1-2.7-4.2-5.4-6.3-8c-2.4-2.7-4.8-5.4-7.2-8
@@ -218,8 +218,8 @@
 		c0.7-1,1.5-2,2.3-2.9c0.4,0.5,0.7,1,1.1,1.5C758.8,426.2,757.6,426.7,756.5,427.1z M765,503.1c-0.3-0.3-0.6-0.6-0.9-0.9
 		c0.7-0.7,1.3-1.4,2-2.1c0.3,0.3,0.6,0.6,0.9,0.9C766.3,501.6,765.7,502.3,765,503.1z M931.2,653.2c0.4,0.1,0.8,0.2,1.3,0.3
 		c-0.3,1.3-0.6,2.6-0.9,3.9c-0.4-0.1-0.9-0.2-1.3-0.3C930.6,655.8,930.9,654.5,931.2,653.2z" />
-            <path class="st0"
-                d="M640.2,715.6c0-0.4,0-0.7,0-1.1c-0.4-1.4-0.8-2.9-1.2-4.3c-0.9,0-1.8-0.1-2.7-0.1c-0.1-0.1-0.3-0.3-0.4-0.4
+			<path class="st0"
+				d="M640.2,715.6c0-0.4,0-0.7,0-1.1c-0.4-1.4-0.8-2.9-1.2-4.3c-0.9,0-1.8-0.1-2.7-0.1c-0.1-0.1-0.3-0.3-0.4-0.4
 		l-0.2,0.1c-0.1-0.1-0.3-0.3-0.4-0.4c-0.6-0.5-1.3-1-2-1.6c0.2-0.3,0.6-0.8,0.9-1.2c-0.3-0.6-0.7-1.2-0.9-1.8
 		c-0.9-2.1-1.6-4.1-0.2-6.3c-0.5-0.7-15.1-3.4-15.6-4.2c-0.2,0-0.3-0.1-0.5-0.1c-0.2-0.1-0.4-0.3-0.5-0.4c-0.2-0.5-0.5-0.9-0.7-1.4
 		l-0.1-0.1c-0.9-0.5-1.9-1.1-2.8-1.6c-0.2,0-0.5-0.1-0.7-0.1c-0.5-0.2-1.1-0.3-1.6-0.5c-1.3-0.4-2.5-0.8-3.8-1.2
@@ -452,10 +452,10 @@
 		c0.5,0.9,1,1.5,1.1,2.2C574.9,710.5,573.8,711.3,573.6,711.2z M579.6,701.5c-0.2-0.1-0.5-0.4-0.5-0.7c0-0.2,0.3-0.4,0.6-0.8
 		c0.3,0.5,0.6,0.8,0.6,1C580.3,701.2,579.8,701.6,579.6,701.5z M595.7,706.2c0-0.3,0-0.6,0-0.9C596.4,705.3,596.5,706.2,595.7,706.2
 		z M613.2,717.6c-0.2,0.1-0.6-0.4-0.9-0.6c0.3-0.4,0.7-0.9,1.1-1.2c0.1-0.1,0.6,0.4,1.1,0.8C613.9,717,613.6,717.4,613.2,717.6z" />
-            <path class="st0" d="M604.5,418.7L604.5,418.7L604.5,418.7L604.5,418.7z" />
-            <path class="st0" d="M672.1,494.1L672.1,494.1L672.1,494.1L672.1,494.1z" />
-            <path class="st0" d="M651,522.8L651,522.8L651,522.8L651,522.8z" />
-            <path class="st0" d="M91.5,94.7c0.3,0.9,0.6,1.8,0.8,2.7c0.3,0.7,0.6,1.3,0.9,2c0.4,0.6,0.8,1.2,1.2,1.7c0.2,0.2,0.3,0.4,0.5,0.6
+			<path class="st0" d="M604.5,418.7L604.5,418.7L604.5,418.7L604.5,418.7z" />
+			<path class="st0" d="M672.1,494.1L672.1,494.1L672.1,494.1L672.1,494.1z" />
+			<path class="st0" d="M651,522.8L651,522.8L651,522.8L651,522.8z" />
+			<path class="st0" d="M91.5,94.7c0.3,0.9,0.6,1.8,0.8,2.7c0.3,0.7,0.6,1.3,0.9,2c0.4,0.6,0.8,1.2,1.2,1.7c0.2,0.2,0.3,0.4,0.5,0.6
 		c0.2,0.4,0.4,0.8,0.6,1.3c2.4,2.3,4.7,4.6,7.1,6.9c0.9,0.6,1.7,1.1,2.6,1.7c2.1,2.1,4.2,4.3,6.2,6.4c0.4,0.2,0.8,0.4,1.2,0.7
 		c0.4,0.6,0.8,1.2,1.2,1.8c0.5,0.4,1,0.8,1.6,1.2c0.1,0.1,0.2,0.3,0.2,0.5c0.4,0.4,0.8,0.8,1.2,1.2c0.4,0.2,0.8,0.4,1.2,0.6
 		c0.1,0.1,0.3,0.3,0.4,0.4c1.6,1.4,3.2,2.8,4.8,4.2c0.2,0,0.4,0,0.5,0.1c0.6,0.6,1.1,1.1,1.7,1.7l0,0c1,0.8,2,1.5,3,2.3
@@ -777,170 +777,170 @@
 		C192.1,148.7,192.2,148.7,192.3,148.7z M178.7,147.2c0.1,0,0.2,0.6,0.4,0.9c-0.6,0.1-1.1,0.2-1.7,0.4c-0.1-0.3-0.1-0.6-0.2-1
 		C177.6,147.4,178.2,147.2,178.7,147.2z M170.1,147c0.1,0,0.2,0.2,0.3,0.4c-0.1,0.1-0.2,0.2-0.4,0.3c-0.1-0.2-0.2-0.4-0.3-0.5
 		C169.8,147.1,170,147,170.1,147z" />
-            <path class="st0" d="M420.9,489.4L420.9,489.4C420.9,489.5,420.9,489.5,420.9,489.4L420.9,489.4z" />
-            <path class="st0"
-                d="M158.4,803.9c0.3-0.4,0.6-0.8,1-1.2c-0.7-0.1-1.3-0.2-2-0.2C157.7,802.9,158,803.4,158.4,803.9z" />
-            <path class="st0"
-                d="M101.1,28.1c-0.6,0.2-1.2,0.4-1.8,0.6c0.8-0.1,1.6-0.2,2.4-0.4C101.5,28.2,101.3,28.1,101.1,28.1z" />
-            <path class="st0"
-                d="M159.7,802c0,0.1-0.1,0.1-0.1,0.2c0.1,0,0.3,0,0.4,0c0-0.1,0-0.2-0.1-0.2C159.9,802,159.8,802,159.7,802z" />
-        </g>
-        <g @click.capture="rout" id="jade">
-            <text transform="matrix(1 0 0 1 143.7786 80.4014)" class="st2 st3 st4">Jade </text>
-            <text transform="matrix(1 0 0 1 117.4785 102.8014)" class="st2 st3 st4">Akkerman</text>
-        </g>
-        <g @click.capture="rout" id="stefaniia">
-            <text transform="matrix(1 0 0 1 734.4329 152.4862)" class="st2 st3 st4">Stefaniia </text>
-            <text transform="matrix(1 0 0 1 741.9329 174.8861)" class="st2 st3 st4">Bodnia</text>
-        </g>
-        <g @click.capture="rout" id="aliona">
-            <text transform="matrix(1 0 0 1 358.9893 103.0329)" class="st2 st3 st4">Aliona </text>
-            <text transform="matrix(1 0 0 1 352.0894 125.4329)" class="st2 st3 st4">Ciobanu</text>
-        </g>
-        <g @click.capture="rout" id="iben">
-            <text transform="matrix(1 0 0 1 97.118 313.1133)" class="st2 st3 st4">Iben April</text>
-            <text transform="matrix(1 0 0 1 96.518 335.5133)" class="st2 st3 st4">Hegreberg</text>
-        </g>
-        <g @click.capture="rout" id="mina">
-            <text transform="matrix(1 0 0 1 675.6436 293.588)" class="st2 st3 st4">Mina </text>
-            <text transform="matrix(1 0 0 1 649.1436 315.9881)" class="st2 st3 st4">Kamburova</text>
-        </g>
-        <g @click.capture="rout" id="maya">
-            <text transform="matrix(1 0 0 1 933.903 279.7444)" class="st2 st3 st4">Maya </text>
-            <text transform="matrix(1 0 0 1 925.103 302.1444)" class="st2 st3 st4">Kurella</text>
-        </g>
-        <g @click.capture="rout" id="elze">
-            <text transform="matrix(1 0 0 1 1102.4436 235.2854)" class="st2 st3 st4">Elzė</text>
-            <text transform="matrix(1 0 0 1 1083.1436 257.6855)" class="st2 st3 st4">Vilkelytė</text>
-        </g>
-        <g @click.capture="rout" id="lucas">
-            <rect x="313.7" y="377.3" class="st1" width="183.2" height="45.3" />
-            <text transform="matrix(1 0 0 1 378.9895 393.2605)" class="st2 st3 st4">Lucas</text>
-            <text transform="matrix(1 0 0 1 332.7895 415.6605)" class="st2 st3 st4">Mainieri Franco</text>
-        </g>
-        <g @click.capture="rout" id="bartek">
-            <text transform="matrix(1 0 0 1 781.9155 463.4665)" class="st2 st3 st4">Bartek</text>
-            <text transform="matrix(1 0 0 1 763.3156 485.8665)" class="st2 st3 st4">Pierściński</text>
-        </g>
-        <g @click.capture="rout" id="balazs">
-            <text transform="matrix(1 0 0 1 1140.6282 386.739)" class="st2 st3 st4">Balázs</text>
-            <text transform="matrix(1 0 0 1 1133.6282 409.139)" class="st2 st3 st4">Milánik</text>
-        </g>
-        <g @click.capture="rout" id="jaan">
-            <text transform="matrix(1 0 0 1 318.6023 216.0056)" class="st2 st3 st4">Jaan </text>
-            <text transform="matrix(1 0 0 1 305.2023 238.4057)" class="st2 st3 st4">Pavliuk</text>
-        </g>
-        <g @click.capture="rout" id="amber">
-            <text transform="matrix(1 0 0 1 572.2087 516.0308)" class="st2 st3 st4">Amber</text>
-            <text transform="matrix(1 0 0 1 560.6086 538.4308)" class="st2 st3 st4">de Ronde</text>
-        </g>
-        <g @click.capture="rout" id="moto">
-            <text transform="matrix(1 0 0 1 345.3065 505.5688)" class="st2 st3 st4">Moto </text>
-            <text transform="matrix(1 0 0 1 342.2065 527.9688)" class="st2 st3 st4">Sasaki</text>
-        </g>
-        <g @click.capture="rout" id="francisco">
-            <text transform="matrix(1 0 0 1 284.2 634.0999)" class="st2 st3 st4">Francisco </text>
-            <text transform="matrix(1 0 0 1 271.5001 656.5)" class="st2 st3 st4">Sebire Munk</text>
-        </g>
-        <g @click.capture="rout" id="elisa">
-            <text transform="matrix(1 0 0 1 704.9809 623.7209)" class="st2 st3 st4">Elisa de la</text>
-            <text transform="matrix(1 0 0 1 689.5809 646.121)" class="st2 st3 st4">Serna Gallego</text>
-        </g>
-        <g @click.capture="rout" id="lara">
-            <text transform="matrix(1 0 0 1 561.6556 710.8376)" class="st2 st3 st4">Lara</text>
-            <text transform="matrix(1 0 0 1 530.1556 733.2376)" class="st2 st3 st4">Silva Santos</text>
-        </g>
-        <g @click.capture="rout" id="julie">
-            <text transform="matrix(1 0 0 1 454.1978 547.2294)" class="st2 st3 st4">Julie W. </text>
-            <text transform="matrix(1 0 0 1 451.8977 569.6295)" class="st2 st3 st4">Sørensen</text>
-        </g>
-        <g @click.capture="rout" id="lois">
-            <text transform="matrix(1 0 0 1 98.4765 678.4156)" class="st2 st3 st4">Lois</text>
-            <text transform="matrix(1 0 0 1 78.2765 700.8156)" class="st2 st3 st4">van Spijk</text>
-        </g>
-        <g @click.capture="rout" id="dagny">
-            <text transform="matrix(1 0 0 1 1028.5294 596.5999)" class="st2 st3 st4">Dagný</text>
-            <text transform="matrix(1 0 0 1 981.2295 618.9998)" class="st2 st3 st4">Rósa Vignisdóttir</text>
-        </g>
-        <g @click.capture="rout" id="emma">
-            <text transform="matrix(1 0 0 1 486.9571 184.5194)" class="st2 st3 st4">Emma </text>
-            <text transform="matrix(1 0 0 1 477.8571 206.9194)" class="st2 st3 st4">Hopchet</text>
-        </g>
-        <g @click.capture="rout" id="lucy">
-            <text transform="matrix(1 0 0 1 981.2294 112.2023)" class="st2 st3 st4">Lucy </text>
-            <text transform="matrix(1 0 0 1 968.8293 134.6023)" class="st2 st3 st4">Gengler</text>
-        </g>
-    </svg>
+			<path class="st0" d="M420.9,489.4L420.9,489.4C420.9,489.5,420.9,489.5,420.9,489.4L420.9,489.4z" />
+			<path class="st0"
+				d="M158.4,803.9c0.3-0.4,0.6-0.8,1-1.2c-0.7-0.1-1.3-0.2-2-0.2C157.7,802.9,158,803.4,158.4,803.9z" />
+			<path class="st0"
+				d="M101.1,28.1c-0.6,0.2-1.2,0.4-1.8,0.6c0.8-0.1,1.6-0.2,2.4-0.4C101.5,28.2,101.3,28.1,101.1,28.1z" />
+			<path class="st0"
+				d="M159.7,802c0,0.1-0.1,0.1-0.1,0.2c0.1,0,0.3,0,0.4,0c0-0.1,0-0.2-0.1-0.2C159.9,802,159.8,802,159.7,802z" />
+		</g>
+		<g @click.capture="rout" id="jade">
+			<text transform="matrix(1 0 0 1 143.7786 80.4014)" class="st2 st3 st4">Jade </text>
+			<text transform="matrix(1 0 0 1 117.4785 102.8014)" class="st2 st3 st4">Akkerman</text>
+		</g>
+		<g @click.capture="rout" id="stefaniia">
+			<text transform="matrix(1 0 0 1 734.4329 152.4862)" class="st2 st3 st4">Stefaniia </text>
+			<text transform="matrix(1 0 0 1 741.9329 174.8861)" class="st2 st3 st4">Bodnia</text>
+		</g>
+		<g @click.capture="rout" id="aliona">
+			<text transform="matrix(1 0 0 1 358.9893 103.0329)" class="st2 st3 st4">Aliona </text>
+			<text transform="matrix(1 0 0 1 352.0894 125.4329)" class="st2 st3 st4">Ciobanu</text>
+		</g>
+		<g @click.capture="rout" id="iben">
+			<text transform="matrix(1 0 0 1 97.118 313.1133)" class="st2 st3 st4">Iben April</text>
+			<text transform="matrix(1 0 0 1 96.518 335.5133)" class="st2 st3 st4">Hegreberg</text>
+		</g>
+		<g @click.capture="rout" id="mina">
+			<text transform="matrix(1 0 0 1 675.6436 293.588)" class="st2 st3 st4">Mina </text>
+			<text transform="matrix(1 0 0 1 649.1436 315.9881)" class="st2 st3 st4">Kamburova</text>
+		</g>
+		<g @click.capture="rout" id="maya">
+			<text transform="matrix(1 0 0 1 933.903 279.7444)" class="st2 st3 st4">Maya </text>
+			<text transform="matrix(1 0 0 1 925.103 302.1444)" class="st2 st3 st4">Kurella</text>
+		</g>
+		<g @click.capture="rout" id="elze">
+			<text transform="matrix(1 0 0 1 1102.4436 235.2854)" class="st2 st3 st4">Elzė</text>
+			<text transform="matrix(1 0 0 1 1083.1436 257.6855)" class="st2 st3 st4">Vilkelytė</text>
+		</g>
+		<g @click.capture="rout" id="lucas">
+			<rect x="313.7" y="377.3" class="st1" width="183.2" height="45.3" />
+			<text transform="matrix(1 0 0 1 378.9895 393.2605)" class="st2 st3 st4">Lucas</text>
+			<text transform="matrix(1 0 0 1 332.7895 415.6605)" class="st2 st3 st4">Mainieri Franco</text>
+		</g>
+		<g @click.capture="rout" id="bartek">
+			<text transform="matrix(1 0 0 1 781.9155 463.4665)" class="st2 st3 st4">Bartek</text>
+			<text transform="matrix(1 0 0 1 763.3156 485.8665)" class="st2 st3 st4">Pierściński</text>
+		</g>
+		<g @click.capture="rout" id="balazs">
+			<text transform="matrix(1 0 0 1 1140.6282 386.739)" class="st2 st3 st4">Balázs</text>
+			<text transform="matrix(1 0 0 1 1133.6282 409.139)" class="st2 st3 st4">Milánik</text>
+		</g>
+		<g @click.capture="rout" id="jaan">
+			<text transform="matrix(1 0 0 1 318.6023 216.0056)" class="st2 st3 st4">Jaan </text>
+			<text transform="matrix(1 0 0 1 305.2023 238.4057)" class="st2 st3 st4">Pavliuk</text>
+		</g>
+		<g @click.capture="rout" id="amber">
+			<text transform="matrix(1 0 0 1 572.2087 516.0308)" class="st2 st3 st4">Amber</text>
+			<text transform="matrix(1 0 0 1 560.6086 538.4308)" class="st2 st3 st4">de Ronde</text>
+		</g>
+		<g @click.capture="rout" id="moto">
+			<text transform="matrix(1 0 0 1 345.3065 505.5688)" class="st2 st3 st4">Moto </text>
+			<text transform="matrix(1 0 0 1 342.2065 527.9688)" class="st2 st3 st4">Sasaki</text>
+		</g>
+		<g @click.capture="rout" id="francisco">
+			<text transform="matrix(1 0 0 1 284.2 634.0999)" class="st2 st3 st4">Francisco </text>
+			<text transform="matrix(1 0 0 1 271.5001 656.5)" class="st2 st3 st4">Sebire Munk</text>
+		</g>
+		<g @click.capture="rout" id="elisa">
+			<text transform="matrix(1 0 0 1 704.9809 623.7209)" class="st2 st3 st4">Elisa de la</text>
+			<text transform="matrix(1 0 0 1 689.5809 646.121)" class="st2 st3 st4">Serna Gallego</text>
+		</g>
+		<g @click.capture="rout" id="lara">
+			<text transform="matrix(1 0 0 1 561.6556 710.8376)" class="st2 st3 st4">Lara</text>
+			<text transform="matrix(1 0 0 1 530.1556 733.2376)" class="st2 st3 st4">Silva Santos</text>
+		</g>
+		<g @click.capture="rout" id="julie">
+			<text transform="matrix(1 0 0 1 454.1978 547.2294)" class="st2 st3 st4">Julie W. </text>
+			<text transform="matrix(1 0 0 1 451.8977 569.6295)" class="st2 st3 st4">Sørensen</text>
+		</g>
+		<g @click.capture="rout" id="lois">
+			<text transform="matrix(1 0 0 1 98.4765 678.4156)" class="st2 st3 st4">Lois</text>
+			<text transform="matrix(1 0 0 1 78.2765 700.8156)" class="st2 st3 st4">van Spijk</text>
+		</g>
+		<g @click.capture="rout" id="dagny">
+			<text transform="matrix(1 0 0 1 1028.5294 596.5999)" class="st2 st3 st4">Dagný</text>
+			<text transform="matrix(1 0 0 1 981.2295 618.9998)" class="st2 st3 st4">Rósa Vignisdóttir</text>
+		</g>
+		<g @click.capture="rout" id="emma">
+			<text transform="matrix(1 0 0 1 486.9571 184.5194)" class="st2 st3 st4">Emma </text>
+			<text transform="matrix(1 0 0 1 477.8571 206.9194)" class="st2 st3 st4">Hopchet</text>
+		</g>
+		<g @click.capture="rout" id="lucy">
+			<text transform="matrix(1 0 0 1 981.2294 112.2023)" class="st2 st3 st4">Lucy </text>
+			<text transform="matrix(1 0 0 1 968.8293 134.6023)" class="st2 st3 st4">Gengler</text>
+		</g>
+	</svg>
 </template>
 
 <style>
 .desktop-potatos {
-    height: calc(100vh - 20px);
-    margin: auto;
+	height: calc(100vh - 20px);
+	margin: auto;
 }
 
 .st0 {
-    fill: #010101;
+	fill: #010101;
 }
 
 .st1 {
-    fill: none;
+	fill: none;
 }
 
 .st2 {
-    fill: #FFFFFF;
+	fill: #FFFFFF;
 }
 
 .st3 {
-    font-family: 'Fell';
+	font-family: 'Fell';
 }
 
 .st4 {
-    font-size: 16px;
+	font-size: 16px;
 }
 
 .desktop-potatos>g:not(:nth-child(1)) {
-    cursor: pointer;
-    transition: .8 all ease;
+	cursor: pointer;
+	transition: .8 all ease;
 }
 
 .desktop-potatos>g:not(:nth-child(1)):hover {
-    /* transform: scale(1.1); */
-    color: grey;
+	/* transform: scale(1.1); */
+	color: grey;
 }
 </style>
 
 <script>
 
 export default {
-    mounted() {
-        this.anim()
-    },
-    methods: {
-        anim() {
-            const gsap = this.$gsap;
+	mounted() {
+		this.anim()
+	},
+	methods: {
+		anim() {
+			const gsap = this.$gsap;
 
-            gsap.from(".desktop-potatos > g:not(:nth-child(1))", {
-                delay: .4,
-                rotateZ: () => {
-                    return "" + (Math.random() * 15 - 7) + "deg"
-                },
-                // rotateX: () => {
-                //     return "" + (Math.random() * 10 - 5) + "deg"
-                // },
-                // rotateY: () => {
-                //     return "" + (Math.random() * 10 - 5) + "deg"
-                // },
-                autoAlpha: 0,
-                scale: 0.7,
-                filter: "blur(10px)",
-                stagger: .04
-            })
-        },
-        rout(event) {
-            this.$router.push(`/${event.currentTarget.id}`)
-        }
-    }
+			gsap.from(".desktop-potatos > g:not(:nth-child(1))", {
+				delay: .4,
+				rotateZ: () => {
+					return "" + (Math.random() * 15 - 7) + "deg"
+				},
+				// rotateX: () => {
+				//     return "" + (Math.random() * 10 - 5) + "deg"
+				// },
+				// rotateY: () => {
+				//     return "" + (Math.random() * 10 - 5) + "deg"
+				// },
+				autoAlpha: 0,
+				scale: 0.7,
+				filter: "blur(10px)",
+				stagger: .04
+			})
+		},
+		rout(event) {
+			this.$router.push(`/${event.currentTarget.id}`)
+		}
+	}
 }
 
 </script>
