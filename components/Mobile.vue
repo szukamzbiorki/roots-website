@@ -33,6 +33,10 @@ export default {
 </script>
 
 <style scoped type="text/css">
+.mobile-potatos {
+	width: 100vw;
+}
+
 .st1 {
 	fill: #FFFFFF;
 }
