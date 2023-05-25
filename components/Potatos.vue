@@ -2,11 +2,15 @@
     <div class="potatos">
         <img class="potatoimg" src="assets/potatos.svg" alt="" srcset="">
     </div>
-
-    <!-- <component v-bind:is="potat"></component> -->
+    <!-- <Desktop></Desktop> -->
 </template>
 
 <script>
+// import Desktop from "~/assets/desktop.svg?inline";
+
+export default {
+    // components: { Desktop },
+}
 // export default {
 //     data: () => ({
 //         name: "potatos"

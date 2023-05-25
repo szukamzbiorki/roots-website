@@ -65,7 +65,7 @@
                     Typefaces
                 </div>
                 <div class="person">
-                    IM Fell English<br>Fluxisch Else
+                    IM Fell English<br><span class="flux">Fluxisch Else</span>
                 </div>
             </section>
 
@@ -140,6 +140,10 @@ a,
 }
 
 .rutz {
+    font-family: 'FluxischRegular';
+}
+
+.flux {
     font-family: 'FluxischRegular';
 }
 </style>

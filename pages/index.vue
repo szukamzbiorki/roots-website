@@ -6,7 +6,10 @@
     <div class="landing">
       <Header></Header>
     </div>
-    <Artists :artists="artistlist"></Artists>
+    <!-- <Artists :artists="artistlist"></Artists> -->
+    <div class="potatos">
+      <Desktop></Desktop>
+    </div>
     <!-- <Potatos></Potatos> -->
   </div>
 </template>
@@ -42,6 +45,11 @@ export default {
 <style scoped>
 .wrapper {
   overflow: hidden;
+}
+
+.potatos {
+  display: flex;
+  justify-content: center;
 }
 
 @media screen and (max-width: 600px) {
