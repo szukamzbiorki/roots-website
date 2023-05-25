@@ -934,12 +934,10 @@ export default {
                 autoAlpha: 0,
                 scale: 0.7,
                 filter: "blur(10px)",
-                stagger: .07
+                stagger: .04
             })
         },
         rout(event) {
-            // console.log(`clicked ${event.target.id}`)
-            console.log(event.currentTarget.id)
             this.$router.push(`/${event.currentTarget.id}`)
         }
     }

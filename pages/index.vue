@@ -10,14 +10,23 @@
     <div class="potatos">
       <Desktop></Desktop>
     </div>
+
     <!-- <Potatos></Potatos> -->
   </div>
 </template>
 
 <script>
 import { groq } from '@nuxtjs/sanity'
+import useScreenType from "../utils/useScreenType.js";
 
 export default {
+  setup() {
+    const { isDesktop } = useScreenType();
+    return isDesktop
+  },
+  created() {
+    let isit = this.isDesktop
+  },
   name: "IndexPage",
   asyncData({ params, $sanity }) {
     const query = groq`{ "artistlist": *[_type == "artist"] | order(name asc){name, short} }`
