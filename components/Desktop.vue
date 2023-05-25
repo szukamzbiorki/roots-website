@@ -785,107 +785,88 @@
             <path class="st0"
                 d="M159.7,802c0,0.1-0.1,0.1-0.1,0.2c0.1,0,0.3,0,0.4,0c0-0.1,0-0.2-0.1-0.2C159.9,802,159.8,802,159.7,802z" />
         </g>
-        <g id="jade">
-            <rect x="71" y="64.5" class="st1" width="183.2" height="45.3" />
+        <g @click.capture="rout" id="jade">
             <text transform="matrix(1 0 0 1 143.7786 80.4014)" class="st2 st3 st4">Jade </text>
             <text transform="matrix(1 0 0 1 117.4785 102.8014)" class="st2 st3 st4">Akkerman</text>
         </g>
-        <g id="stefa">
-            <rect x="681.5" y="136.6" class="st1" width="183.2" height="45.3" />
+        <g @click.capture="rout" id="stefaniia">
             <text transform="matrix(1 0 0 1 734.4329 152.4862)" class="st2 st3 st4">Stefaniia </text>
             <text transform="matrix(1 0 0 1 741.9329 174.8861)" class="st2 st3 st4">Bodnia</text>
         </g>
-        <g id="aliona">
-            <rect x="296.9" y="87.2" class="st1" width="183.2" height="45.3" />
+        <g @click.capture="rout" id="aliona">
             <text transform="matrix(1 0 0 1 358.9893 103.0329)" class="st2 st3 st4">Aliona </text>
             <text transform="matrix(1 0 0 1 352.0894 125.4329)" class="st2 st3 st4">Ciobanu</text>
         </g>
-        <g id="iben">
-            <rect x="51.2" y="297.2" class="st1" width="183.2" height="45.3" />
+        <g @click.capture="rout" id="iben">
             <text transform="matrix(1 0 0 1 97.118 313.1133)" class="st2 st3 st4">Iben April</text>
             <text transform="matrix(1 0 0 1 96.518 335.5133)" class="st2 st3 st4">Hegreberg</text>
         </g>
-        <g id="mina">
-            <rect x="607.7" y="277.7" class="st1" width="183.2" height="45.3" />
+        <g @click.capture="rout" id="mina">
             <text transform="matrix(1 0 0 1 675.6436 293.588)" class="st2 st3 st4">Mina </text>
             <text transform="matrix(1 0 0 1 649.1436 315.9881)" class="st2 st3 st4">Kamburova</text>
         </g>
-        <g id="maya">
-            <rect x="866.8" y="263.9" class="st1" width="183.2" height="45.3" />
+        <g @click.capture="rout" id="maya">
             <text transform="matrix(1 0 0 1 933.903 279.7444)" class="st2 st3 st4">Maya </text>
             <text transform="matrix(1 0 0 1 925.103 302.1444)" class="st2 st3 st4">Kurella</text>
         </g>
-        <g id="elze">
-            <rect x="1031.4" y="219.4" class="st1" width="183.2" height="45.3" />
+        <g @click.capture="rout" id="elze">
             <text transform="matrix(1 0 0 1 1102.4436 235.2854)" class="st2 st3 st4">Elzė</text>
             <text transform="matrix(1 0 0 1 1083.1436 257.6855)" class="st2 st3 st4">Vilkelytė</text>
         </g>
-        <g id="lucas">
+        <g @click.capture="rout" id="lucas">
             <rect x="313.7" y="377.3" class="st1" width="183.2" height="45.3" />
             <text transform="matrix(1 0 0 1 378.9895 393.2605)" class="st2 st3 st4">Lucas</text>
             <text transform="matrix(1 0 0 1 332.7895 415.6605)" class="st2 st3 st4">Mainieri Franco</text>
         </g>
-        <g id="bartek">
-            <rect x="719.2" y="447.5" class="st1" width="183.2" height="45.3" />
+        <g @click.capture="rout" id="bartek">
             <text transform="matrix(1 0 0 1 781.9155 463.4665)" class="st2 st3 st4">Bartek</text>
             <text transform="matrix(1 0 0 1 763.3156 485.8665)" class="st2 st3 st4">Pierściński</text>
         </g>
-        <g id="balazs">
-            <rect x="1077.5" y="370.9" class="st1" width="183.2" height="45.3" />
+        <g @click.capture="rout" id="balazs">
             <text transform="matrix(1 0 0 1 1140.6282 386.739)" class="st2 st3 st4">Balázs</text>
             <text transform="matrix(1 0 0 1 1133.6282 409.139)" class="st2 st3 st4">Milánik</text>
         </g>
-        <g id="jaan">
-            <rect x="246.6" y="200.1" class="st1" width="183.2" height="45.3" />
+        <g @click.capture="rout" id="jaan">
             <text transform="matrix(1 0 0 1 318.6023 216.0056)" class="st2 st3 st4">Jaan </text>
             <text transform="matrix(1 0 0 1 305.2023 238.4057)" class="st2 st3 st4">Pavliuk</text>
         </g>
-        <g id="amber">
-            <rect x="509.7" y="500.1" class="st1" width="183.2" height="45.3" />
+        <g @click.capture="rout" id="amber">
             <text transform="matrix(1 0 0 1 572.2087 516.0308)" class="st2 st3 st4">Amber</text>
             <text transform="matrix(1 0 0 1 560.6086 538.4308)" class="st2 st3 st4">de Ronde</text>
         </g>
-        <g id="moto">
-            <rect x="277.8" y="489.6" class="st1" width="183.2" height="45.3" />
+        <g @click.capture="rout" id="moto">
             <text transform="matrix(1 0 0 1 345.3065 505.5688)" class="st2 st3 st4">Moto </text>
             <text transform="matrix(1 0 0 1 342.2065 527.9688)" class="st2 st3 st4">Sasaki</text>
         </g>
-        <g id="francisco">
-            <rect x="235.6" y="618.2" class="st1" width="183.2" height="45.3" />
+        <g @click.capture="rout" id="francisco">
             <text transform="matrix(1 0 0 1 284.2 634.0999)" class="st2 st3 st4">Francisco </text>
             <text transform="matrix(1 0 0 1 271.5001 656.5)" class="st2 st3 st4">Sebire Munk</text>
         </g>
-        <g id="elisa">
-            <rect x="659.6" y="607.8" class="st1" width="183.2" height="45.3" />
+        <g @click.capture="rout" id="elisa">
             <text transform="matrix(1 0 0 1 704.9809 623.7209)" class="st2 st3 st4">Elisa de la</text>
             <text transform="matrix(1 0 0 1 689.5809 646.121)" class="st2 st3 st4">Serna Gallego</text>
         </g>
-        <g id="lara">
-            <rect x="491.7" y="695" class="st1" width="183.2" height="45.3" />
+        <g @click.capture="rout" id="lara">
             <text transform="matrix(1 0 0 1 561.6556 710.8376)" class="st2 st3 st4">Lara</text>
             <text transform="matrix(1 0 0 1 530.1556 733.2376)" class="st2 st3 st4">Silva Santos</text>
         </g>
-        <g id="julie">
-            <rect x="398.9" y="531.3" class="st1" width="183.2" height="45.3" />
+        <g @click.capture="rout" id="julie">
             <text transform="matrix(1 0 0 1 454.1978 547.2294)" class="st2 st3 st4">Julie W. </text>
             <text transform="matrix(1 0 0 1 451.8977 569.6295)" class="st2 st3 st4">Sørensen</text>
         </g>
-        <g id="lois">
-            <rect x="26.9" y="662.6" class="st1" width="183.2" height="45.3" />
+        <g @click.capture="rout" id="lois">
             <text transform="matrix(1 0 0 1 98.4765 678.4156)" class="st2 st3 st4">Lois</text>
             <text transform="matrix(1 0 0 1 78.2765 700.8156)" class="st2 st3 st4">van Spijk</text>
         </g>
-        <g id="dagny">
+        <g @click.capture="rout" id="dagny">
             <text transform="matrix(1 0 0 1 1028.5294 596.5999)" class="st2 st3 st4">Dagný</text>
             <text transform="matrix(1 0 0 1 981.2295 618.9998)" class="st2 st3 st4">Rósa Vignisdóttir</text>
         </g>
-        <g id="emma">
-            <rect x="424.6" y="168.6" class="st1" width="183.2" height="45.3" />
+        <g @click.capture="rout" id="emma">
             <text transform="matrix(1 0 0 1 486.9571 184.5194)" class="st2 st3 st4">Emma </text>
             <text transform="matrix(1 0 0 1 477.8571 206.9194)" class="st2 st3 st4">Hopchet</text>
         </g>
-        <g id="lucy">
-            <rect x="912.4" y="96.3" class="st1" width="183.2" height="45.3" />
+        <g @click.capture="rout" id="lucy">
             <text transform="matrix(1 0 0 1 981.2294 112.2023)" class="st2 st3 st4">Lucy </text>
             <text transform="matrix(1 0 0 1 968.8293 134.6023)" class="st2 st3 st4">Gengler</text>
         </g>
@@ -917,12 +898,17 @@
 .st4 {
     font-size: 16px;
 }
+
+.desktop-potatos>g:not(:nth-child(1)) {
+    cursor: pointer;
+}
 </style>
+
 <script>
+
 export default {
     mounted() {
         this.anim()
-        this.rout()
     },
     methods: {
         anim() {
@@ -945,8 +931,10 @@ export default {
                 stagger: .1
             })
         },
-        rout() {
-
+        rout(event) {
+            // console.log(`clicked ${event.target.id}`)
+            console.log(event.currentTarget.id)
+            this.$router.push(`/${event.currentTarget.id}`)
         }
     }
 }

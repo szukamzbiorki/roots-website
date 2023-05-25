@@ -19,6 +19,7 @@
     "swiper": "^9.2.4",
     "vue": "^2.6.14",
     "vue-flickity": "^1.2.1",
+    "vue-router": "^3.6.5",
     "vue-server-renderer": "^2.6.14",
     "vue-slick": "^1.2.0",
     "vue-template-compiler": "^2.6.14",
@@ -26,6 +27,7 @@
   },
   "devDependencies": {
     "@nuxtjs/svg": "^0.4.0",
+    "@vue/cli-plugin-router": "~5.0.0",
     "nuxt-gsap-module": "^1.7.3",
     "vue-svg-loader": "^0.17.0-beta.2"
   }
