@@ -7,7 +7,7 @@
                     Production
                 </div>
                 <div class="person">
-                    Lucy Gengler & Julie Werenskjold Sørensen
+                    Lucy Gengler<br>Julie Werenskjold Sørensen
                 </div>
             </section>
             <section>
@@ -15,7 +15,7 @@
                     Curation
                 </div>
                 <div class="person">
-                    Aliona Ciobanu & Emma Hopchet & Iben Hegreberg & Julie Werenskjold Sørensen
+                    Aliona Ciobanu<br>Emma Hopchet<br>Iben Hegreberg<br>Julie Werenskjold Sørensen
                 </div>
             </section>
             <section>
@@ -23,7 +23,7 @@
                     Design
                 </div>
                 <div class="person">
-                    Stefaniia Bodnia & Aliona Ciobanu & Dagný Rósa Vignisdóttir
+                    Stefaniia Bodnia<br>Aliona Ciobanu<br>Dagný Rósa Vignisdóttir
                 </div>
             </section>
             <section>
@@ -47,12 +47,23 @@
                     Supervision
                 </div>
                 <div class="person">
-                    Katrin Korfmann & Maarten Cornel
+                    Katrin Korfmann<br>Maarten Cornel
                 </div>
             </section>
             <section>
                 <div class="role">
-                    Website design & development
+                    Website design
+                </div>
+                <div class="person">
+                    Stefaniia Bodnia<br>
+                    <a target=”_blank” href="https://bartekp.nl">
+                        Bartek Pierściński
+                    </a>
+                </div>
+            </section>
+            <section>
+                <div class="role">
+                    Coding
                 </div>
                 <div class="person">
                     <a target=”_blank” href="https://bartekp.nl">
