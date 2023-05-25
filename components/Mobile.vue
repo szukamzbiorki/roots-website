@@ -42,7 +42,7 @@ export default {
 }
 
 .st2 {
-	font-family: 'RootsIMFELLPica-Regular';
+	font-family: 'Fell';
 }
 
 .st3 {
