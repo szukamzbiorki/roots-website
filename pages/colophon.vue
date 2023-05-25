@@ -7,7 +7,7 @@
                     Production
                 </div>
                 <div class="person">
-                    Lucy Gengler<br>Julie Werenskjold Sørensen
+                    Lucy Gengler & Julie Werenskjold Sørensen
                 </div>
             </section>
             <section>
@@ -15,7 +15,7 @@
                     Curation
                 </div>
                 <div class="person">
-                    Aliona Ciobanu<br>Emma Hopchet<br>Iben Hegreberg<br>Julie Werenskjold Sørensen
+                    Aliona Ciobanu & Emma Hopchet & Iben Hegreberg & Julie Werenskjold Sørensen
                 </div>
             </section>
             <section>
@@ -23,7 +23,7 @@
                     Design
                 </div>
                 <div class="person">
-                    Stefaniia Bodnia<br>Aliona Ciobanu<br>Dagný Rósa Vignisdóttir
+                    Stefaniia Bodnia & Aliona Ciobanu & Dagný Rósa Vignisdóttir
                 </div>
             </section>
             <section>
@@ -47,7 +47,7 @@
                     Supervision
                 </div>
                 <div class="person">
-                    Katrin Korfmann<br>Maarten Cornel
+                    Katrin Korfmann & Maarten Cornel
                 </div>
             </section>
             <section>
