@@ -33,12 +33,6 @@ export default {
 </script>
 
 <style scoped type="text/css">
-.desktop-potatos {}
-
-.st0 {
-	fill: none;
-}
-
 .st1 {
 	fill: #FFFFFF;
 }
