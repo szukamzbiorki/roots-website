@@ -1,6 +1,6 @@
 <template>
     <div class="wrapper">
-        <NuxtLink class="back" to="/"><span class="rutz">Back to the ROOTS</span></NuxtLink>
+        <NuxtLink class="back" to="/a"><span class="rutz">Back to the ROOTS</span></NuxtLink>
         <div class="colophon">
             <section>
                 <div class="role">
