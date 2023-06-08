@@ -1,7 +1,7 @@
 <template>
   <div class="wrapper">
     <div class="redirects">
-      <A></A>
+      <NuxtLink to="/a"><A></A></NuxtLink>
       <B></B>
     </div>
   </div>
