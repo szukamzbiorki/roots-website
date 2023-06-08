@@ -1,8 +1,8 @@
 <template>
   <div class="wrapper">
-    <span class="title">
+    <NuxtLink to="/" class="title">
       ROOTS
-    </span>
+    </NuxtLink>
     <div class="landing">
       <Header></Header>
     </div>
