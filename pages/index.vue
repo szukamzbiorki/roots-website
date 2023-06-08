@@ -1,7 +1,7 @@
 <template>
   <div class="wrapper">
     <div class="redirects">
-      <NuxtLink to="/a"><A></A></NuxtLink>
+      <NuxtLink class="linkacz" to="/a"><A></A></NuxtLink>
       <B></B>
     </div>
   </div>
@@ -42,7 +42,6 @@
   top: 50vh;
   transform: translate(-50%, -50%);
   width: 90vw;
-  /* background-color: grey; */
   height: 80vh;
   display: flex;
   flex-direction: row;
@@ -55,13 +54,21 @@
   .wrapper {
     overflow: scroll;
   }
-}
 
-.title {
-  font-family: 'Fluxisch';
-  position: absolute;
-  left: 50vw;
-  top: 0;
-  transform: translateX(-50%);
+  .redirects {
+    width: 90vw;
+    height: 90vh;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .link {
+    width: 90vw;
+    height: 40vh;
+  }
+
+  .linkacz {
+    width: 90vw;
+  }
 }
 </style>
