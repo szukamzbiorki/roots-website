@@ -1,46 +1,13 @@
 <template>
   <div class="wrapper">
-    <span class="title">
-      ROOTS
-    </span>
-    <div class="landing">
-      <Header></Header>
+    <div class="redirects">
+      <A></A>
+      <B></B>
     </div>
-    <!-- <Artists :artists="artistlist"></Artists> -->
-    <div class="potatos">
-      <Mobile v-if="isMobile"></Mobile>
-      <Desktop v-else="isMobile"></Desktop>
-      <!-- <Desktop></Desktop> -->
-    </div>
-
-    <!-- <Potatos></Potatos> -->
   </div>
 </template>
 
-<script setup>
-import useScreenType from "../utils/useScreenType";
-
-const { isMobile } = useScreenType();
-</script>
-
 <script>
-import { groq } from '@nuxtjs/sanity'
-// import useScreenType from "../utils/useScreenType.js";
-
-export default {
-  setup() {
-    // const { isDesktop } = useScreenType();
-    // return isDesktop
-  },
-  created() {
-    // let isit = this.isDesktop
-  },
-  name: "Landing",
-  asyncData({ params, $sanity }) {
-    const query = groq`{ "artistlist": *[_type == "artist"] | order(name asc){name, short} }`
-    return $sanity.fetch(query)
-  },
-}
 </script>
 
 <style>
@@ -57,6 +24,11 @@ export default {
   flex-direction: column;
   scrollbar-width: none;
 }
+
+.link {
+  height: 80vh;
+  width: 40vw;
+}
 </style>
 
 <style scoped>
@@ -64,10 +36,20 @@ export default {
   overflow: hidden;
 }
 
-.potatos {
+.redirects {
+  position: absolute;
+  left: 50vw;
+  top: 50vh;
+  transform: translate(-50%, -50%);
+  width: 90vw;
+  /* background-color: grey; */
+  height: 80vh;
   display: flex;
-  justify-content: center;
+  flex-direction: row;
+  justify-content: space-between;
 }
+
+
 
 @media screen and (max-width: 600px) {
   .wrapper {
