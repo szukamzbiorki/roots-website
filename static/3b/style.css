@@ -1,0 +1,405 @@
+@font-face {
+    font-family: ROOTS;
+    src: url(./assets/times.woff);
+    font-weight: 400;
+}
+
+::selection {
+    background: rgba(0, 0, 0, 0.99);
+    color: #FFF;
+}
+
+@media only screen and (min-width: 601px) {
+
+    html,
+    a,
+    div,
+    body,
+    label,
+    input,
+    textarea,
+    button {
+        cursor: none !important;
+    }
+}
+
+#cursor {
+    height: 20px;
+    width: 20px;
+    border-radius: 20px;
+    background-color: #000;
+    position: absolute;
+    z-index: 101;
+}
+
+html {
+    font-family: ROOTS, serif;
+    letter-spacing: 0.06em;
+    -webkit-text-size-adjust: 100%;
+
+    /*          -webkit-font-smoothing: none; */
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+}
+
+
+b,
+strong,
+h1,
+h2,
+h3,
+h4 {
+    font-weight: 400;
+}
+
+h1 {
+    font-size: 1.7em;
+    display: block;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    cursor: pointer;
+    text-decoration: underline
+}
+
+img {
+    max-width: 100%;
+    min-width: 100%;
+    max-height: 100%;
+}
+
+/*.container {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+}
+
+.video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}*/
+
+.video {
+    aspect-ratio: 16 / 9;
+    width: 100%;
+}
+
+section {
+    height: 100vh;
+    overflow-y: scroll;
+
+}
+
+section::-webkit-scrollbar {
+    /* display: none; */
+}
+
+
+
+section#nav {
+    width: 40%;
+    text-align: center;
+    left: 0;
+}
+
+#top-header a:hover {
+    text-decoration: none;
+}
+
+#head-img {
+    width: 100%;
+    margin-top: -3%;
+}
+
+#artists {
+    padding: 0 5%;
+}
+
+#artists a {
+    font-size: 1.25em;
+    display: inline-block;
+    line-height: 1.1;
+    margin-bottom: 1em;
+}
+
+#desc {
+    margin-bottom: 40px;
+    margin-top: -5%;
+    padding: 0 5%;
+}
+
+#desc small::after {
+    content: ' ▾';
+}
+
+#footer-img {
+    margin-top: -27%;
+    position: relative;
+    z-index: -1;
+}
+
+#kabk-logo {
+    min-width: 50%;
+    max-width: 50%;
+    margin-top: -5%;
+}
+
+small {
+    font-size: 0.8em;
+    letter-spacing: 0;
+}
+
+
+
+section#main {
+    width: 60%;
+    padding: 0 1%;
+}
+
+span.outline {
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke-width: 1.2px;
+    -webkit-text-stroke-color: black;
+}
+
+#artist-header {
+    text-align: center;
+}
+
+#artistname {
+    text-transform: uppercase;
+    margin-block-end: 0.1em;
+}
+
+#social {
+    margin-block-start: 0em;
+    font-size: 0.8em;
+    letter-spacing: 0;
+}
+
+#art-title {
+    font-size: 3em;
+    margin-block-end: 0;
+    margin-block-start: 0em;
+    margin-top: 5vh;
+    line-height: 1em;
+}
+
+#art-materials {
+    margin-block-start: 0em;
+    letter-spacing: 0;
+    margin-top: 2vh;
+    margin-block-end: 0;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*#art-materials::before {
+    content:'(';
+}
+#art-materials::after {
+    content:')';
+}*/
+#art-description {
+    width: 80%;
+    margin-top: 5vh;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5vh;
+    /*text-align: justify;*/
+}
+
+#art-description p {
+    text-indent: 30px;
+    margin-block-end: 0;
+    margin-block-start: 0;
+    letter-spacing: 0.02em;
+    line-height: 1.15em;
+}
+
+#art-keywords {
+    text-align: center;
+    text-transform: capitalize;
+    text-indent: 0 !important;
+    margin-block-start: 1em !important;
+    margin-block-end: 1em !important;
+}
+
+#main img:last-child {
+    margin-block-end: 0.8em;
+}
+
+
+
+
+/* DESKTOP ONLY */
+
+@media only screen and (min-width: 601px) {
+    #main img:active {
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        overflow: auto;
+        position: fixed;
+        -o-object-fit: contain;
+        object-fit: contain;
+        background: white;
+        height: 100%;
+    }
+
+    img {
+        -webkit-user-select: none;
+        /* Chrome all / Safari all */
+        -moz-user-select: none;
+        /* Firefox all */
+        -ms-user-select: none;
+    }
+
+    p {
+        font-size: 1.1em;
+    }
+
+    .mobarrow {
+        display: none !important;
+    }
+}
+
+
+
+
+
+/************************************************ MOBILE ONLY ***********/
+
+@media only screen and (max-width: 600px) {
+    html {
+        letter-spacing: 0 !important;
+        overflow: hidden;
+    }
+
+    h1 {
+        padding: 0 5%;
+        font-size: 1.4em;
+    }
+
+    small {
+        padding: 0 5%;
+        display: block;
+    }
+
+    #cursor {
+        display: none !important;
+    }
+
+    section {
+        height: auto;
+        width: 100% !important;
+        -webkit-overflow-scrolling: touch;
+
+    }
+
+    section#nav {
+        position: fixed;
+        top: 0;
+        height: 30%;
+        /*border-bottom: 0.1em solid black;*/
+        box-shadow: 0 0px 7px black;
+        z-index: 2;
+    }
+
+    /*#top-header {
+    min-height: 30vh;
+}*/
+    #head-img {
+        max-height: 19vh;
+        min-width: auto;
+        width: auto;
+    }
+
+    section#main {
+        margin-top: 30vh;
+    }
+
+    section#main p {
+        padding: 0 5%;
+    }
+
+    #artist-header {
+        padding: 0 5%;
+    }
+
+    #art-title {
+        font-size: 1.7em;
+    }
+
+    #art-description {
+        width: 100%;
+    }
+
+    #art-description p {
+        text-indent: 15px;
+    }
+
+    #artistslist {
+        position: sticky;
+        top: 0;
+        background: white;
+    }
+
+    #colophon {
+        font-size: 0.9em;
+    }
+
+    @keyframes arrow {
+        0% {
+            padding-top: 0;
+        }
+
+        50% {
+            padding-top: 3px;
+        }
+
+        100% {
+            padding-top: 0px;
+        }
+    }
+
+    .mobarrow {
+        position: fixed;
+        top: 0;
+        width: 90%;
+        text-transform: uppercase;
+        animation: arrow 2s linear infinite;
+        background: white;
+    }
+}

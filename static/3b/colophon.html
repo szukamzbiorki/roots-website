@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ROOTS — KABK GD Y3B 2022</title>
+    <meta name="title" content="ROOTS — KABK GD Y3B 2022"> <meta name="description" content="ROOTS is a block-long project with third-year graphic design students from the Royal Academy of Art, The Hague. © 2022"> <!-- Open Graph / Facebook --> <meta property="og:type" content="website"> <meta property="og:url" content="http://roots.kabk.nl/"> <meta property="og:title" content="ROOTS — KABK GD Y3B 2022"> <meta property="og:description" content="ROOTS is a block-long project with third-year graphic design students from the Royal Academy of Art, The Hague. © 2022"> <meta property="og:image" content="./assets/roots-preview.png"> <!-- Twitter --> <meta property="twitter:card" content="summary_large_image"> <meta property="twitter:url" content="http://roots.kabk.nl/"> <meta property="twitter:title" content="ROOTS — KABK GD Y3B 2022"> <meta property="twitter:description" content="ROOTS is a block-long project with third-year graphic design students from the Royal Academy of Art, The Hague. © 2022"> <meta property="twitter:image" content="./assets/roots-preview.png">
+    <link rel="apple-touch-icon" href="./favicon.png">
+    <link rel="icon" type="image/png" href="./favicon.png">
+    <link href="./style.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="./includehtml.js"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-6RW1QBNX08"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-6RW1QBNX08');
+    </script>
+    <style>
+    a[href$="colophon.html"]::before {
+        color: black;
+        content: '●';
+        font-size: 1.25em;
+        line-height: 0;
+    }
+    </style>
+    <style>
+    #main {
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    #main div h1 {
+        margin-block-end: 0 !important;
+    }
+
+    #main div h2 {
+        margin-block-start: 0;
+    }
+    </style>
+</head>
+
+<body>
+    <section id="nav">
+        <div include-html="./navigation.html"></div>
+    </section>
+    <section id="main">
+        <div include-html="./colophon-content.html"></div>
+    </section>
+    <script src="./script-activator.js"></script>
+</body>
+
+</html>
