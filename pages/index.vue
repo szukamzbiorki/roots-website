@@ -2,7 +2,7 @@
   <div class="wrapper">
     <div class="redirects">
       <NuxtLink class="linkacz" to="/a"><A></A></NuxtLink>
-      <B></B>
+      <NuxtLink class="linkacz" to="/b"><B></B></NuxtLink>
     </div>
   </div>
 </template>
