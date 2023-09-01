@@ -5,20 +5,23 @@
                 <button @click="previous()">Previous</button>
                 <button @click="next()">Next</button>
             </div>
-            <flickity ref="flickity" :options="flickityOptions">
+            <Flickity ref="flickity" :options="flickityOptions">
                 <div v-for="image in images" :key="image.id" class="carousel-cell">
                     <img :src="image.asset.url" alt="">
                 </div>
 
-            </flickity>
+            </Flickity>
 
         </no-ssr>
     </div>
 </template>
 
 <script>
-
+import Flickity from 'vue-flickity';
 export default {
+    components: {
+        Flickity
+    },
     data() {
         return {
             flickityOptions: {
@@ -37,13 +40,14 @@ export default {
     },
     methods: {
         next() {
-            this.$refs.flickity.next();
+            this.$refs.Flickity.next();
         },
 
         previous() {
-            this.$refs.flickity.previous();
+            this.$refs.Flickity.previous();
         }
-    }
+    },
+
 }
 </script>
 
