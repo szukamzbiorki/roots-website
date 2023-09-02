@@ -134,6 +134,7 @@ p {
     text-align: center;
 }
 
+
 a,
 .back {
     color: white;
@@ -156,5 +157,19 @@ a,
 
 .flux {
     font-family: 'FluxischRegular';
+}
+
+@media screen and (max-width: 600px) {
+
+    .wrapper {
+        align-items: flex-start;
+    }
+
+    .colophon {
+        padding-top: 9vh;
+        overflow: scroll;
+        max-height: 92vh;
+    }
+
 }
 </style>
