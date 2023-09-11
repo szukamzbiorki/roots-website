@@ -9,15 +9,14 @@
                 <div v-for="image in images" :key="image.id" class="carousel-cell">
                     <img :src="image.asset.url" alt="">
                 </div>
-
             </Flickity>
-
         </no-ssr>
     </div>
 </template>
 
 <script>
-import Flickity from 'vue-flickity';
+import Flickity from '~/node_modules/vue-flickity/src/flickity';
+// import Flickity from 'vue-flickity';
 export default {
     components: {
         Flickity
@@ -40,11 +39,11 @@ export default {
     },
     methods: {
         next() {
-            this.$refs.Flickity.next();
+            this.$refs.flickity.next();
         },
 
         previous() {
-            this.$refs.Flickity.previous();
+            this.$refs.flickity.previous();
         }
     },
 
